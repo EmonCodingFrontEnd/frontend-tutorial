@@ -192,7 +192,7 @@ redux中间件
 npm install --save redux-thunk
 ```
 
-![微信图片_20180825151614](微信图片_20180825151614.png)
+![2018082502](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/tutorials/React/images/2018082502.png)
 
 ### 4.11、安装redux-saga
 
@@ -213,7 +213,7 @@ npm install --save redux-saga
 npm install --save react-redux
 ```
 
-![](98b1483415576a1b02fde09a354e37f.png)
+![2018082501](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/tutorials/React/images/2018082501.png)
 
 
 
@@ -352,6 +352,8 @@ npm run build:extension:chrome
 ```
 
 执行成功后，会显示如下：
+
+[react-devtools生成扩展程序成功](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/tutorials/React/images/2018082101.png)
 
 并且会在你的项目目录中生成一个新的文件夹`/react-devtools/shells/chrome/build/unpacked`
 
