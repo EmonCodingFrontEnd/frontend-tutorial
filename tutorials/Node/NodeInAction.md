@@ -4,4 +4,18 @@
 
 [TOC]
 
-# 一、
+# 一、CommonJS规范
+
+```shell
+# 查找全局依赖安装的位置
+npm root -g
+```
+
+
+
+# 二、global
+
+
+
+
+
