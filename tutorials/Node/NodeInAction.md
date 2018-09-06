@@ -8,6 +8,8 @@
 
 # 官方文档：https://nodejs.org/en/docs/
 
+# 中文文档：http://nodejs.cn/api/
+
 # 一、CommonJS规范
 
 ```shell
