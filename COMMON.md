@@ -113,7 +113,7 @@ eslint --init
         - `ESLint`
 - 右侧勾选`Enable`复选框，在已经安装了ESLint情况下，ESLint package默认也会探测到值，如下图：
 
-
+![启用ESLint](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/images/20180907150019.png)
 
 ## 三、插件安装
 
