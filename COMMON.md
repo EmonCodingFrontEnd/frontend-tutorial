@@ -82,6 +82,39 @@ https://editorconfig.org/
 
 配置完成后，触发格式化即可按照`.editorconfig`进行格式化。
 
+### 3、启用ESLint
+
+#### 3.1、安装eslint
+
+全局安装eslint：
+
+```shell
+npm install eslint -g
+```
+
+在项目的根目录执行`eslint --init`命令可以创建一个配置，这样你就可以继承推荐的规则。
+
+```shell
+eslint --init
+```
+
+然后根据默认选择项，回车执行；因为默认是ES5，你可以选择ES2015（也就是ES6），其他保持默认。
+
+中文官网：http://eslint.cn/
+
+英文官网：https://eslint.org/
+
+#### 3.2、配置WebStorm中eslint
+
+- 左侧`Settings`
+  - `Languages&Frameworks`
+    - `JavaScript`
+      - `Code Quality Tools`
+        - `ESLint`
+- 右侧勾选`Enable`复选框，在已经安装了ESLint情况下，ESLint package默认也会探测到值，如下图：
+
+
+
 ## 三、插件安装
 
 ### 1、
