@@ -10,6 +10,10 @@
 
 # 中文文档：http://nodejs.cn/api/
 
+# npm文档：https://www.npmjs.com/
+
+# editconfig：https://editorconfig.org/
+
 # 一、CommonJS规范
 
 ```shell
