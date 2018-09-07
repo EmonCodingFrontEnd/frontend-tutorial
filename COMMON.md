@@ -12,6 +12,10 @@ EditorConfig不是什么软件，而是一个名称为`.editorconfig`的自定�
 
 有些编辑器默认已安装了插件，比如`Intellij Idea`和`WebStorm`;而有些编辑器则需要安装插件，比如`ATOM`、`Sublime`、`VS Code`等。
 
+- 官网
+
+https://editorconfig.org/
+
 - 文件语法
 
 `.editorconfig`配置文件需要是UTF-8字符集编码的，以回车换行或者换行作为一行的分隔符。
