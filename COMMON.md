@@ -59,9 +59,112 @@ https://editorconfig.org/
 
 ## 一、下载安装
 
+### 1、下载
+
+WebStorm官方网址：http://www.jetbrains.com/webstorm/
+
+### 2、安装
+
+双击安装包，比如：WebStorm-2018.1.3.exe 执行默认安装即可。
+
+### 3、注册
+
+- license server方式
+
+  - 网络上搜索WebStorm的 license server 并配置即可
+
+- 注册码方式
+
+  1. 修改hosts文件，并追加如下内容
+
+  ```
+  0.0.0.0 account.jetbrains.com
+  ```
+
+  2. 输入注册码
+
+  ```shell
+  EB101IWSWD-eyJsaWNlbnNlSWQiOiJFQjEwMUlXU1dEIiwibGljZW5zZWVOYW1lIjoibGFuIHl1IiwiYXNzaWduZWVOYW1lIjoiIiwiYXNzaWduZWVFbWFpbCI6IiIsImxpY2Vuc2VSZXN0cmljdGlvbiI6IkZvciBlZHVjYXRpb25hbCB1c2Ugb25seSIsImNoZWNrQ29uY3VycmVudFVzZSI6ZmFsc2UsInByb2R1Y3RzIjpbeyJjb2RlIjoiSUkiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJSUzAiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJXUyIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IlJEIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUkMiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJEQyIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IkRCIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUk0iLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJETSIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IkFDIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiRFBOIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUFMiLCJwYWlkVXBUbyI6IjIwMTgtMTAtMTQifSx7ImNvZGUiOiJDTCIsInBhaWRVcFRvIjoiMjAxOC0xMC0xNCJ9LHsiY29kZSI6IlBDIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In0seyJjb2RlIjoiUlNVIiwicGFpZFVwVG8iOiIyMDE4LTEwLTE0In1dLCJoYXNoIjoiNjk0NDAzMi8wIiwiZ3JhY2VQZXJpb2REYXlzIjowLCJhdXRvUHJvbG9uZ2F0ZWQiOmZhbHNlLCJpc0F1dG9Qcm9sb25nYXRlZCI6ZmFsc2V9-Gbb7jeR8JWOVxdUFaXfJzVU/O7c7xHQyaidCnhYLp7v32zdeXiHUU7vlrrm5y9ZX0lmQk3plCCsW+phrC9gGAPd6WDKhkal10qVNg0larCR2tQ3u8jfv1t2JAvWrMOJfFG9kKsJuw1P4TozZ/E7Qvj1cupf/rldhoOmaXMyABxNN1af1RV3bVhe4FFZe0p7xlIJF/ctZkFK62HYmh8V3AyhUNTzrvK2k+t/tlDJz2LnW7nYttBLHld8LabPlEEjpTHswhzlthzhVqALIgvF0uNbIJ5Uwpb7NqR4U/2ob0Z+FIcRpFUIAHEAw+RLGwkCge5DyZKfx+RoRJ/In4q/UpA==-MIIEPjCCAiagAwIBAgIBBTANBgkqhkiG9w0BAQsFADAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBMB4XDTE1MTEwMjA4MjE0OFoXDTE4MTEwMTA4MjE0OFowETEPMA0GA1UEAwwGcHJvZDN5MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxcQkq+zdxlR2mmRYBPzGbUNdMN6OaXiXzxIWtMEkrJMO/5oUfQJbLLuMSMK0QHFmaI37WShyxZcfRCidwXjot4zmNBKnlyHodDij/78TmVqFl8nOeD5+07B8VEaIu7c3E1N+e1doC6wht4I4+IEmtsPAdoaj5WCQVQbrI8KeT8M9VcBIWX7fD0fhexfg3ZRt0xqwMcXGNp3DdJHiO0rCdU+Itv7EmtnSVq9jBG1usMSFvMowR25mju2JcPFp1+I4ZI+FqgR8gyG8oiNDyNEoAbsR3lOpI7grUYSvkB/xVy/VoklPCK2h0f0GJxFjnye8NT1PAywoyl7RmiAVRE/EKwIDAQABo4GZMIGWMAkGA1UdEwQCMAAwHQYDVR0OBBYEFGEpG9oZGcfLMGNBkY7SgHiMGgTcMEgGA1UdIwRBMD+AFKOetkhnQhI2Qb1t4Lm0oFKLl/GzoRykGjAYMRYwFAYDVQQDDA1KZXRQcm9maWxlIENBggkA0myxg7KDeeEwEwYDVR0lBAwwCgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMA0GCSqGSIb3DQEBCwUAA4ICAQC9WZuYgQedSuOc5TOUSrRigMw4/+wuC5EtZBfvdl4HT/8vzMW/oUlIP4YCvA0XKyBaCJ2iX+ZCDKoPfiYXiaSiH+HxAPV6J79vvouxKrWg2XV6ShFtPLP+0gPdGq3x9R3+kJbmAm8w+FOdlWqAfJrLvpzMGNeDU14YGXiZ9bVzmIQbwrBA+c/F4tlK/DV07dsNExihqFoibnqDiVNTGombaU2dDup2gwKdL81ua8EIcGNExHe82kjF4zwfadHk3bQVvbfdAwxcDy4xBjs3L4raPLU3yenSzr/OEur1+jfOxnQSmEcMXKXgrAQ9U55gwjcOFKrgOxEdek/Sk1VfOjvS+nuM4eyEruFMfaZHzoQiuw4IqgGc45ohFH0UUyjYcuFxxDSU9lMCv8qdHKm+wnPRb0l9l5vXsCBDuhAGYD6ss+Ga+aDY6f/qXZuUCEUOH3QUNbbCUlviSz6+GiRnt1kA9N2Qachl+2yBfaqUqr8h7Z2gsx5LcIf5kYNsqJ0GavXTVyWh7PYiKX4bs354ZQLUwwa/cG++2+wNWP+HtBhVxMRNTdVhSm38AknZlD+PTAsWGu9GyLmhti2EnVwGybSD2Dxmhxk3IPCkhKAK+pl0eWYGZWG3tJ9mZ7SowcXLWDFAk0lRJnKGFMTggrWjV8GYpw5bq23VmIqqDLgkNzuoog==
+  ```
+
+
 ## 二、偏好配置
 
-### 1、配置NodeJS提示
+### 1、安装nvm和Node/npm
+
+#### 1.1、安装nvm
+
+下载地址： <https://github.com/coreybutler/nvm-windows/releases>
+
+1. 下载 nvm-setup.zip
+2. 安装nvm
+
+#### 1.2、安装Node/npm
+
+nodejs官网：<https://nodejs.org/en/>
+
+npmjs官网： <https://www.npmjs.com/>
+
+1. 打开cmd
+2. 在官网查看可安装版本
+
+<https://nodejs.org/zh-cn/>
+
+3. 安装
+
+安装长期维护版本，推荐多数用户使用（LTS）
+
+**推荐在Linux环境通过nvm ls-remote查看LTS版本安装**
+
+```
+nvm install v8.11.3
+# 或者
+nvm install v6.14.3
+```
+
+**以上安装，会安装node和对应的npm版本**
+
+4. 使用
+
+```
+nvm use v8.11.3
+# 或者
+nvm use v6.14.3
+```
+
+5. 校验
+
+```
+node --version
+npm --version
+```
+
+6. 配置淘宝npm镜像【推荐】
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```
+
+### 2、配置Node和npm
+
+左侧：`Settings`->`Languages&Frameworks`->`Node.js and NPM`
+
+右侧：
+
+- `Node interpreter` 选择node.exe的路径，比如：
+
+```
+C:\Program Files\nodejs\node.exe
+```
+
+- 勾选`Coding assistance for Node.js`
+- `package manager` 选择npm的路径，比如：
+
+```
+C:\Program Files\nodejs
+```
+
+### 3、配置Node提示
 
 - 左侧`Settings`
   - `Languages&Frameworks`
@@ -71,7 +174,7 @@ https://editorconfig.org/
 
 ![配置NodeJS提示](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/images/20180907135457.png)
 
-### 2、启用EditorConfig
+### 4、启用EditorConfig
 
 - 左侧`Settings`
   - `Editor`
@@ -82,29 +185,29 @@ https://editorconfig.org/
 
 配置完成后，触发格式化即可按照`.editorconfig`进行格式化。
 
-### 3、启用ESLint
+### 5、启用ESLint
 
-#### 3.1、安装eslint
+#### 5.1、安装eslint
 
 全局安装eslint：
 
 ```shell
-npm install eslint -g
+npm install --g eslint babel-eslint
 ```
 
-在项目的根目录执行`eslint --init`命令可以创建一个配置，这样你就可以继承推荐的规则。
+在项目的根目录执行`eslint --init`命令可以创建一个`.eslintrc.js`配置文件，这样你就可以继承推荐的规则。
 
 ```shell
 eslint --init
 ```
 
-然后根据默认选择项，回车执行；因为默认是ES5，你可以选择ES2015（也就是ES6），其他保持默认。
+然后根据默认选择项，回车执行。
 
 中文官网：http://eslint.cn/
 
 英文官网：https://eslint.org/
 
-#### 3.2、配置WebStorm中eslint
+#### 5.2、配置WebStorm中eslint
 
 - 左侧`Settings`
   - `Languages&Frameworks`
@@ -115,9 +218,32 @@ eslint --init
 
 ![启用ESLint](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/images/20180907150019.png)
 
-## 三、插件安装
+#### 5.3、结合npm的pre-commit使用eslint组织git commit
 
-### 1、
+1. `package.json`加入script
+
+```json
+"scripts": {
+    "fix": "eslint --fix .",
+    "lint": "eslint ."
+},
+"pre-commit": [
+    "fix",
+    "lint"
+],
+```
+
+2. 安装pre-commit
+
+```shell
+npm install --save-dev pre-commit
+```
+
+#### 5.4、配置`.eslintignore`
+
+作用：忽略eslint的检查范围
+
+## 三、插件安装
 
 ## 四、快捷键
 
