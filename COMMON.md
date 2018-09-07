@@ -57,7 +57,11 @@ https://editorconfig.org/
 
 # WebStorm相关
 
-## 1、配置NodeJS提示
+## 一、下载安装
+
+## 二、偏好配置
+
+### 1、配置NodeJS提示
 
 - 左侧`Settings`
   - `Languages&Frameworks`
@@ -66,4 +70,25 @@ https://editorconfig.org/
 - 右侧选择`Download`，打开Download Library界面，搜索node并选择，然后点击Download and Install按钮下载并安装，完成后可以看到如下图：
 
 ![配置NodeJS提示](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/images/20180907135457.png)
+
+### 2、启用EditorConfig
+
+- 左侧`Settings`
+  - `Editor`
+    - `Code Style`
+- 右侧在`EditorConfig`区域，默认`Enable EditorConfig support`是勾选的，此时点击`Export`阿牛即可在项目中生成一个`.editorconfig`文件。
+
+具体配置请参见官网：https://editorconfig.org/
+
+配置完成后，触发格式化即可按照`.editorconfig`进行格式化。
+
+## 三、插件安装
+
+### 1、
+
+## 四、快捷键
+
+## 五、常用技巧
+
+
 
