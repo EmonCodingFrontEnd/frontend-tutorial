@@ -4,7 +4,9 @@
 
 [TOC]
 
-临时： https://www.cnblogs.com/itlkNote/p/6830682.html
+临时：[npm命令详解]( https://www.cnblogs.com/itlkNote/p/6830682.html)
+
+临时： [11个你应该知道的npm技巧](https://www.jianshu.com/p/aa84b7b35094)
 
 # 一、npm常用命令详解
 
