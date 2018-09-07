@@ -6,10 +6,6 @@
 
 临时：[npm命令详解]( https://www.cnblogs.com/itlkNote/p/6830682.html)
 
-临时： [11个你应该知道的npm技巧](https://www.jianshu.com/p/aa84b7b35094)
-
-临时：[npm版本的解析](https://www.cnblogs.com/blackgan/p/7828047.html)
-
 # 一、npm常用命令详解
 
 ## 1、npm是什么
@@ -61,6 +57,13 @@ npm包的版本号格式X.Y.Z，版本号的格式遵循semver 2.0规范，其�
 - `^1.2.1` 代表的更新版本范围为>=1.2.1&&<2.0.0
 - `0.2.1` 代表的更新版本范围为>=0.2.1&&<0.3.0
 - `^0.0.2` 代表的更新版本范围为0.0.2（相当于锁定了0.0.2版本）
+
+### 2.2、波浪号`~`
+
+波浪号（~）是限定模块的次要版本。
+
+- `~1.5.1` 允许安装版本号大于1.5但小于1.6.版本的模块
+- `0.5.1` 允许安装版本号为0.6.0
 
 ## 3、npm install安装模块
 
@@ -195,6 +198,230 @@ npm update [-g] [<pkg>...]
 
 aliases: up, upgrade
 ```
+
+## 6、npm outdated检查模块是否已经过时
+
+- 简介
+
+```shell
+npm outdated [[<@scope>/]<pkg> ...]
+```
+
+此命令会列出所有已经过时的包，可以及时进行包的更新。
+
+## 7、npm ls检查安装的模块
+
+```shell
+npm ls [[<@scope>/]<pkg> ...]
+
+aliases: list, la, ll
+```
+
+- 查看全局安装的模块及依赖
+
+```shell
+npm ls -g --depth=0
+```
+
+## 8、npm init在项目中引导创建一个package.json文件
+
+安装包的信息科保持到项目的package.json文件中，以便后续的其他的项目开发或者他人合作使用，也就是说package.json在项目中是必不可少的。
+
+- 简介
+
+```shell
+npm init [--force|-f|--yes|-y|--scope]
+npm init <@scope> (same as `npx <@scope>/create`)
+npm init [<@scope>/]<name> (same as `npx [<@scope>/]create-<name>`)
+```
+
+## 9、npm help查看某条命令的详细帮助
+
+- 简介
+
+```shell
+npm help <term> [<terms..>]
+```
+
+## 10、npm config管理npm的配置路径
+
+- 简介
+
+```shell
+npm config set <key> <value> [-g|--global]
+npm config get <key>
+npm config delete <key>
+npm config list [-l] [--json]
+npm config edit
+npm get <key>
+npm set <key> <value> [-g|--global]
+
+aliases: c
+```
+
+- 设置淘宝镜像
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```
+
+- 获取镜像设置
+
+```shell
+npm config get registry
+```
+
+- 查看配置列表
+
+```shell
+npm config list
+```
+
+- 删除配置项
+
+```shell
+npm config delete <key>
+```
+
+- 编辑配置文件
+
+```shell
+npm config edit
+```
+
+## 11、npm cache管理模块的缓存
+
+- 简介
+
+```shell
+npm cache add <tarball file>
+npm cache add <folder>
+npm cache add <tarball url>
+npm cache add <name>@<version>
+
+npm cache clean [<path>]
+aliases: npm cache clear, npm cache rm
+
+npm cache verify
+```
+
+- 清除npm本地的缓存
+
+```shell
+npm cache clean
+```
+
+## 12、npm start启动模块
+
+- 简介
+
+```shell
+npm start [-- <args>]
+```
+
+该命令写在package.json文件scripts的start字段中，可以自定义命令来配置一个服务器环境和安装一系列的必要程序。
+
+如果package.json文件没有配置start，则将直接启动node server.js
+
+## 13、npm stop停止模块
+
+- 简介
+
+```shell
+npm stop [-- <args>]
+```
+
+## 14、npm restart重新启动模块
+
+- 简介
+
+```shell
+npm restart [-- <args>]
+```
+
+## 15、npm test测试模块
+
+- 简介
+
+```shell
+npm test [-- <args>]
+
+aliases: t, tst
+```
+
+该命令写在package.json文件scripts的test字段中，可以自定义该命令来执行一些操作。
+
+## 16、npm version查看模块版本
+
+- 简介
+
+```shell
+npm version [<newversion> | major | minor | patch | premajor | preminor | prepatch | prerelease [--preid=<prerelease-id>] | from-git]
+
+'npm [-v | --version]' to print npm version
+'npm view <pkg> version' to view a package's published version
+'npm ls' to inspect current package/dependency versions
+```
+
+- 查看模块的版本
+
+```shell
+npm version
+```
+
+## 17、npm shrinkwrap锁定你的依赖版本
+
+使用`npm shrinkwrap`命令会在你当前项目中生成一个`npm-shrinkwrap.json`文件。它会将你当前`package.json`中引用的依赖版本锁定，当下次执行`npm install`时，它默认安装的其实是`shrinkwrap.json`中锁定的依赖版本号。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
