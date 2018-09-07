@@ -373,6 +373,38 @@ npm version
 
 使用`npm shrinkwrap`命令会在你当前项目中生成一个`npm-shrinkwrap.json`文件。它会将你当前`package.json`中引用的依赖版本锁定，当下次执行`npm install`时，它默认安装的其实是`shrinkwrap.json`中锁定的依赖版本号。
 
+## 18、npm view
+
+- 查看某个包的依赖关系
+
+```shell
+npm view <name> dependencies
+```
+
+- 查看当前模块依赖的node最低版本号
+
+```shell
+npm view <name> engines
+```
+
+- 查看模块的当前版本号
+
+```shell
+npm view <name> version
+```
+
+- 查看模块的历史版本和当前版本
+
+```shell
+npm view <name> versions
+```
+
+- 查看一个模块的所有信息
+
+```shell
+npm view <name>
+```
+
 
 
 
