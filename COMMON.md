@@ -65,3 +65,5 @@ https://editorconfig.org/
       - `Libraries`
 - 右侧选择`Download`，打开Download Library界面，搜索node并选择，然后点击Download and Install按钮下载并安装，完成后可以看到如下图：
 
+![配置NodeJS提示](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/images/20180907135457.png)
+
