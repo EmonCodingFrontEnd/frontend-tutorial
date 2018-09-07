@@ -47,4 +47,21 @@ https://editorconfig.org/
   - `insert_final_newline` 设为true表示使文件以一个空白行结尾。
   - `root` 表示使最顶层的配置文件，发现设为true时，才会停止查找`.editorconfig`文件
 
+## 2、ESLint
+
+英文官网： https://eslint.org/
+
+中文官网： http://eslint.cn/
+
+
+
+# WebStorm相关
+
+## 1、配置NodeJS提示
+
+- 左侧`Settings`
+  - `Languages&Frameworks`
+    - `JavaScript`
+      - `Libraries`
+- 右侧选择`Download`，打开Download Library界面，搜索node并选择，然后点击Download and Install按钮下载并安装，完成后可以看到如下图：
 
