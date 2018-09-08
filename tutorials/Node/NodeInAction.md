@@ -58,3 +58,44 @@ npm root -g
 - Buffer用于处理二进制数据流
 - 实例类似整数数组，大小固定
 - C++代码在V8堆外分配物理内存
+
+
+
+# 零碎知识
+
+## 1、常用模块
+
+- 颜色代码模块
+
+```shell
+npm install chalk --save
+```
+
+- supervisor
+
+1. 安装
+
+```shell
+npm install supervisor -g
+```
+
+2. 使用
+
+```shell
+supervisor app.js // app.js是一个node的server文件
+```
+
+- handlebars
+
+```shell
+npm install handlebars --save
+```
+
+
+
+
+
+
+
+
+
