@@ -65,7 +65,9 @@ npm root -g
 
 ## 1、常用模块
 
-- 颜色代码模块
+- chalk
+
+颜色代码模块
 
 ```shell
 npm install chalk --save
