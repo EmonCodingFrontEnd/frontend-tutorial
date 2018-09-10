@@ -476,6 +476,8 @@ https://meyerweb.com/eric/tools/css/reset/
 
 # 七、ThinkJS
 
+官网： https://thinkjs.org/
+
 ## 1、安装ThinkJS命令
 
 ```shell
@@ -502,6 +504,72 @@ cd demo;
 npm install;
 npm start;
 ```
+
+
+
+
+
+
+
+# 八、DvaJS
+
+官网： https://dvajs.com/
+
+## 1、安装dva-cli
+
+1. 安装
+
+```shell
+npm install dva-cli -g
+```
+
+2. 查看版本
+
+```shell
+dva -v
+```
+
+## 2、创建项目
+
+```shell
+dva new dva-quickstart
+cd dva-quickstart
+npm start
+```
+
+访问： http://localhost:8000
+
+## 3、使用antd
+
+通过npm安装`antd`和`babel-plugin-import`。`babel-plugin-import`是用来按需加载antd的脚本和样式的。
+
+```shell
+npm install antd babel-plugin-import --save
+```
+
+编辑 `.webpackrc`，使 `babel-plugin-import` 插件生效。
+
+```shell
+{
++  "extraBabelPlugins": [
++    ["import", { "libraryName": "antd", "libraryDirectory": "es", "style": "css" }]
++  ]
+}
+```
+
+注：dva-cli 基于 roadhog 实现 build 和 dev
+
+## 4、定义路由
+
+
+
+
+
+
+
+
+
+
 
 
 
