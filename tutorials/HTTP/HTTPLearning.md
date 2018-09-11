@@ -43,3 +43,50 @@
 
 ### 3.2、使用Wireshark抓包
 
+官方网站： https://www.wireshark.org/
+
+## 4、URI、URL和URN
+
+- `URI` 
+  - Uniform Resource Identifier/统一资源标识符
+  - 用来唯一标识互联网上的信息资源
+  - 包括URL和URN
+- `URL` 
+  - Uniform Resource Locator/统一资源定位器
+  - http://user:pass@host.com:80/path?query=string#hash
+- `URN`
+  - 永久统一资源定位符
+  - 在资源移动之后还能被找到
+  - 目前还没有非常成熟的使用方案
+
+## 5、HTTP报文格式
+
+- 请求报文
+  - 请求行
+  - 请求头
+  - 请求体
+
+```
+GET /test/hi-there.txt HTTP/1.0
+Accept: text/*
+Accept-Language: en,fr
+```
+
+- 应答报文
+  - 应答行
+  - 应答头
+  - 应答体
+
+```shell
+HTTP/1.0 200 OK
+Content-type: text/plain
+Content-length: 19
+Hi! I'm a message!
+```
+
+
+
+
+
+
+
