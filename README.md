@@ -20,4 +20,5 @@
 - [Node](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/Node)
 - [npm](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/npm)
 - [HTTP](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/HTTP)
+- [ES6](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/ES6)
 
