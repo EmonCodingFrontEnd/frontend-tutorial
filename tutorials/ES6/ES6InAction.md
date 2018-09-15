@@ -12,6 +12,8 @@
 
 [阮一峰老师的ES6入门教程](http://es6.ruanyifeng.com/)
 
+[阮一峰老师的JavaScript教程](https://wangdoc.com/javascript/)
+
 
 
 [w3cschool关于JS的总结](https://www.w3cschool.cn/javascript/dict)
