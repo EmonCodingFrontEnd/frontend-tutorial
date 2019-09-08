@@ -26,17 +26,21 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 
 
-
-
 ## 2.2、主题设置
+
+【文件】->【首选项】->【颜色主题】（Ctrl+K Ctrl+T）
+
+安装`One Dark Pro`颜色主题；安装`vscode-icons`图标主题；
+
+
 
 ## 2.3、用户和工作区
 
 ## 2.4、快捷键设置
 
+【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S）
 
-
-
+![1567915337382](images/1567915337382.png)
 
 # 三、项目管理
 
