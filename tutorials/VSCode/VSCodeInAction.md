@@ -89,11 +89,11 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 | Ctrl+Shift+Enter    | 上方插入一行                 |
 | Ctrl+Enter          | 下方插入一行                 |
 | Alt+Shift+F         | 格式化代码                   |
-|                     | 向上复制行                   |
-|                     | 向下复制行                   |
+| Alt+Shift+Up        | 向上复制行                   |
+| Alt+Shift+Down      | 向下复制行                   |
 | Alt+Shift+C         | 文件：复制活动文件的路径     |
 | Ctrl+K Ctrl+Shift+C | 文件：复制活动文件的相对路径 |
-|                     | 向上移动行                   |
+| Alt+Up              | 向上移动行                   |
 |                     | 向下移动行                   |
 | Alt+Shift+F5        | 移动到上一个更改             |
 | Alt+F5              | 移动到下一个更改             |
