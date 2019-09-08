@@ -43,7 +43,7 @@ C:\Program Files\node_modules\npm
 
 https://github.com/haotian-wang/google-access-helper
 
-##  3.2 配置WebStorm
+##  3.2、 配置WebStorm
 
 https://www.jianshu.com/p/165db5bb1392
 
@@ -71,3 +71,4 @@ https://segmentfault.com/a/1190000015363628
 
 
 
+<u></u>
