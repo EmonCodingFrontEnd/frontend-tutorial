@@ -78,9 +78,12 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 # 四、插件安装
 
+## 4.1、CSS Peek
 
+- 功能描述：html与css关联
 
-
+- 快捷键更改：无
+- 使用方法：
 
 # 五、快捷键
 
