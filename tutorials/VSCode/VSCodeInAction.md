@@ -22,7 +22,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 ## 2.1、用户界面
 
-![1567913755830](../Vue/images/1567913755830.png)
+![1567913755830](./images/1567913755830.png)
 
 
 
