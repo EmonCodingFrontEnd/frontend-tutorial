@@ -40,7 +40,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S）
 
-![1567915337382](images/1567915337382.png)
+![1567915337382](./images/1567915337382.png)
 
 # 三、项目管理
 
