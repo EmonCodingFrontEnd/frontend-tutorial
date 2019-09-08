@@ -82,60 +82,89 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 - 功能描述：html与css关联
 
-- 快捷键更改：无
-- 使用方法：
-
 ## 4.2、Prettier
 
 - 功能描述：代码格式化
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.3、Icon Fonts
 
 - 功能描述：图标引入
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.4、Auto Rename Tag
 
 - 功能描述：自动重命名标签
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.5、HTML Boilerplate
 
 - 功能描述：H5模板
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.6、Color Info
 
 - 功能描述：颜色提示
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.7、Auto Close Tag
 
-- 功能描述：自动闭合标签
-- 快捷键更改：无
-- 使用方法：
+- 功能描述：自动闭合HTML/XML标签
 
 ## 4.8、HTML CSS Support
 
-- 功能描述：CSS提示
-- 快捷键更改：无
-- 使用方法：
+- 功能描述：智能提示CSS类名以及id
 
 ## 4.9、VueHelper
 
 - 功能描述：VueHelper提供.vue格式支持，以及语法高亮和补全
-- 快捷键更改：无
-- 使用方法：
 
 ## 4.10、ESLint
 
-## 4.11、
+## 4.11、Bracket Pair Colorizer
+
+- 功能描述：给括号加上不同的颜色，便于区分不同的区块，使用者可以定义不同括号类型和不同颜色
+
+## 4.12、Debugger for Chrome
+
+- 功能描述：映射VSCode上的断点到chrome上，方便调试
+
+## 4.13、GitLens
+
+- 功能描述：方便查看git日志，git重度使用者必备
+
+## 4.14、HTML Snippets
+
+- 功能描述：智能提示HTML标签，以及标签含义
+
+## 4.15、JavaScript(ES6) code snippets
+
+- 功能描述：ES6语法智能提示，以及快速输入，不仅仅支持js，还支持.ts，.jsx，.jsx，.html, .vue，省去了配置其支持各种包含js代码文件的时间。
+
+## 4.16、open in browser
+
+- 功能描述：VSCode不像IDE一样能够直接在浏览器中打开html，而该插件支持快捷键与鼠标右键快速在浏览器中打开html文件，支持自定义打开指定的浏览器，包括：Firefox,Chrome,Opera,IE以及Shfari。
+
+## 4.17、Path Intellisense
+
+- 功能描述：自动提示文件路径，支持各种快速引入文件。
+
+## 4.18、Vetur
+
+- 功能描述：Vue多功能集成插件，包括：语法高亮，智能提示，emmet，错误提示，格式化，自动补全，debugger。vscode官方钦定Vue插件，Vue开发者必备。
+
+补充两个：
+
+### 4.18.1、VueHelper
+
+- 功能描述：Vue代码片段
+
+### 4.18.2、Vue TypeScript Snipets
+
+- 功能描述：Vue的typescript代码片段
+
+## 4.19、Npm Intellisense
+
+- 功能描述：require时包提示
+
+## 4.20、React/Redux/react-router Snippets
+
+- 功能描述：React/Redux/react-router语法智能提示
 
 # 五、快捷键
 
@@ -170,8 +199,8 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 | Alt+F5              | 移动到下一个更改             |
 | Ctrl+K Ctrl+\       | 视图：正交拆分编辑器         |
 | Ctrl+Shift+5        | Terminal：垂直拆分终端       |
-|                     |                              |
-|                     |                              |
+| F11                 | 全屏/退出全屏                |
+| Ctrl+-/+            | 放大或者缩小编辑器           |
 
 ## 5.2、查找/替换
 
