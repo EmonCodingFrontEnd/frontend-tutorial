@@ -42,11 +42,17 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 ### 2.3.1、用户设置
 
-#### 2.3.1.1、自动保存
+1. 自动保存
 
+`常用设置`->`Files:Auto Save`，选择`afterDelay`，延迟1秒保存。
 
+2. Tab尺寸（一个Tab键，等于多少空格）
 
+`常用设置`->`Editor:Tab Size`，使用默认的`4`。
 
+3. 折行方式
+
+`常用设置`->`Editor:Word Wrap`，选择`on`。
 
 ## 2.4、快捷键设置
 
@@ -69,6 +75,37 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 
 # 五、快捷键
+
+## 5.1、编辑
+
+| 快捷键              | 功能描述                     |
+| ------------------- | ---------------------------- |
+| Ctrl+C              | 复制选中；复制一行           |
+| Ctrl+V              | 粘贴                         |
+| Ctrl+S              | 保存                         |
+| Ctrl+X              | 剪切选中；剪切一行           |
+| Ctrl+/              | 行注释                       |
+| Alt+Shift+A         | 块注释                       |
+| Ctrl+Shift+Enter    | 上方插入一行                 |
+| Ctrl+Enter          | 下方插入一行                 |
+| Alt+Shift+F         | 格式化代码                   |
+|                     | 向上复制行                   |
+|                     | 向下复制行                   |
+| Alt+Shift+C         | 文件：复制活动文件的路径     |
+| Ctrl+K Ctrl+Shift+C | 文件：复制活动文件的相对路径 |
+|                     | 向上移动行                   |
+|                     | 向下移动行                   |
+| Alt+Shift+F5        | 移动到上一个更改             |
+| Alt+F5              | 移动到下一个更改             |
+
+## 5.2、查找/替换
+
+| 快捷键       | 功能描述   |
+| ------------ | ---------- |
+| Ctrl+F       | 查找       |
+| Ctrl+Shift+F | 文件夹查找 |
+| Ctrl+H       | 替换       |
+|              |            |
 
 
 
