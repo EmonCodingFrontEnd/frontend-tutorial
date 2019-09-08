@@ -94,7 +94,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 | Alt+Shift+C         | 文件：复制活动文件的路径     |
 | Ctrl+K Ctrl+Shift+C | 文件：复制活动文件的相对路径 |
 | Alt+Up              | 向上移动行                   |
-|                     | 向下移动行                   |
+| Alt+Down            | 向下移动行                   |
 | Alt+Shift+F5        | 移动到上一个更改             |
 | Alt+F5              | 移动到下一个更改             |
 
