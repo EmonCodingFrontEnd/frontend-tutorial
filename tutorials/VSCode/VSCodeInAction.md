@@ -54,9 +54,17 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 `常用设置`->`Editor:Word Wrap`，选择`on`。
 
-## 2.4、快捷键设置
+## 2.4、配置GIT
 
-【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S）
+第一步：添加环境变量Path，追加Git路径，比如：`D:\Applications\Git\cmd`
+
+第二步：重启VSCode
+
+第三步：找到`用户设置`->`扩展`->`Git`->`Path`，选择在`settings.json`中编辑，增加如下：
+
+```json
+"git.path": "D:\\Applications\\Git\\cmd\\git.exe"
+```
 
 # 三、项目管理
 
@@ -75,6 +83,14 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 
 # 五、快捷键
+
+【重点】快捷键映射，可以将其他编辑器的快捷键应用到VSCode上。 
+
+【文件】->【首选项】->【按键映射】（Ctrl+K Ctrl+M）
+
+【重点】自定义快捷键
+
+【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S）
 
 ## 5.1、编辑
 
@@ -107,7 +123,31 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 | Ctrl+H       | 替换       |
 |              |            |
 
+## 5.3、引用查询
 
+## 5.4、编译和运行
+
+## 5.5、调试
+
+## 5.6、导航
+
+## 5.7、重构
+
+## 5.8、版本控制/本地历史
+
+## 5.9、动态模板
+
+## 5.10、通用
+
+## 5.11、插件
+
+## 5.12、自定义
+
+## 5.13、原生快捷键更改记录
+
+## 5.14、根据释义查询快捷键
+
+【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S），然后输入快捷键组合（比如ctrl+f)或者释义即可。
 
 # 六、常用技巧
 
