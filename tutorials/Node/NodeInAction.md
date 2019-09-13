@@ -504,6 +504,8 @@ yarn install
 
 ## 3、YARN命令详解
 
+[YARN命令详解](https://www.cnblogs.com/Jimc/p/10108821.html)
+
 ### 3.1、常用命令
 
 - 创建项目
@@ -531,6 +533,127 @@ yarn add
 ```bash
 yarn config set registry "https://registry.npm.taobao.org"
 ```
+
+### 3.1、yarn add
+
+添加依赖包
+
+```bash
+yarn add <package...>
+yarn add <package...> [--dev/-D]
+yarn add <package...> [--peer/-P]
+yarn add <package...> [--optional/-O]
+yarn add <package...> [--exact/-E]
+yarn add <package...> [--tilde/-T]
+yarn add <package...> [--ignore-workspace-root-check/-W]
+yarn add <alias-package>@npm:<package>
+yarn add <package...> --audit
+```
+
+- 安装到`dependencies`
+
+```bash
+yarn add <package...>
+```
+
+- 安装到`devDependencies`
+
+```bash
+yarn add <package...> [--dev/-D]
+```
+
+
+
+### 3.2、yarn bin
+
+显示yarn安装目录
+
+```bash
+yarn bin [<executable>]
+```
+
+
+
+### 3.3、yarn cache
+
+显示缓存
+
+```bash
+yarn cache list [--pattern <pattern>]
+yarn cache dir
+yarn cache clean [<module_name...>]
+```
+
+- 打印缓存目录
+
+```bash
+yarn cache dir
+```
+
+- 列出缓存包【已废弃】
+
+```bash
+yarn cache ls
+```
+
+- 列出缓存包【推荐】
+
+```bash
+yarn cache list
+```
+
+- 清除缓存
+
+```bash
+yarn cache clean
+```
+
+
+
+### 3.4、yarn check
+
+检查包
+
+```bash
+yarn check
+yarn check --integrity
+yarn check --verify-tree
+```
+
+
+
+### 3.5、yarn config
+
+配置
+
+```bash
+yarn config set <key> <value> [-g|--global]
+yarn config get <key>
+yarn config delete <key>
+yarn config list
+```
+
+
+
+### 3.6、yarn global
+
+全局安装依赖包
+
+```bash
+yarn global<add/bin/list/remove/upgrade> [--prefix]
+```
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
