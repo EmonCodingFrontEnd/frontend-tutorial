@@ -20,9 +20,8 @@
 - [Vue](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/Vue)
 - [React](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/React)
 - [Node](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/Node)
-- [npm](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/npm)
+
 - [HTTP](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/HTTP)
 - [ES6](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/ES6)
-
 - [VSCode](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/VSCode)
 
