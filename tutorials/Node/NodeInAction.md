@@ -103,6 +103,8 @@ npm install handlebars --save
 
 临时：[npm命令详解]( https://www.cnblogs.com/itlkNote/p/6830682.html)
 
+[中文官网](https://www.npmjs.cn/)
+
 ## 1、NPM是什么
 
 NPM的全称是`Node Package Manager`，是随同NodeJS一起安装的包管理和分发工具，它很方便让JavaScript开发者下载、安装、上传以及管理已经安装的包。
@@ -419,9 +421,116 @@ npm cache clean
 
 
 
+# 三、YARN
+
+[Yarn中文官网](https://yarn.bootcss.com/)
+
+## 1、YARN是什么
+
+Yarn对你的代码来说是一个包管理器，你可以通过它使用全世界开发者的代码，或者分享自己的代码。Yarn做这些块捷、安全、可靠，所以你不用担心什么。
+
+通过Yarn你可以使用其他开发者针对不同问题的解决方案，使自己的开发过程更简单。使用讴歌过程中遇到问题，你可以将其上报或者贡献解决方案。一旦问题被修复，Yarn会更新保持同步。
+
+代码通过`包（package）（或者称为模块（moudule））`的方式来共享。一个包里包含所有需要共享的代码，以及描述包信息的文件，称为`package.json`。
+
+## 2、使用方法
+
+### 2.1、安装yarn
+
+```bash
+npm install -g yarn
+yarn --version
+```
 
 
 
+### 2.2、初始化一个新项目
+
+```bash
+yarn init
+```
+
+
+
+### 2.3、添加依赖包
+
+```bash
+yarn add [package]
+yarn add [package]@[version]
+yarn add [package]@[tag]
+```
+
+
+
+### 2.4、将依赖项添加到不同依赖项类别中
+
+分别添加到`devDependencies`、`peerDependencies`和`optionalDependencies`类别中：
+
+```bash
+yarn add [package] --dev
+yarn add [package] --peer
+yarn add [package] --optional
+```
+
+
+
+### 2.5、升级依赖包
+
+```bash
+yarn upgrade [package]
+yarn upgrade [package]@[version]
+yarn upgrade [package]@[tag]
+```
+
+
+
+### 2.6、移除依赖包
+
+```bash
+yarn remove [package]
+```
+
+
+
+### 2.7、安装项目的全部依赖
+
+```bash
+yarn
+或
+yarn install
+```
+
+
+
+## 3、YARN命令详解
+
+### 3.1、常用命令
+
+- 创建项目
+
+```bash
+yarn init
+```
+
+- 安装依赖包
+
+```bash
+yarn
+或
+yarn install
+```
+
+- 添加依赖包
+
+```bash
+yarn add
+```
+
+- 配置淘宝镜像
+
+```bash
+yarn config set registry "https://registry.npm.taobao.org"
+```
 
 
 
