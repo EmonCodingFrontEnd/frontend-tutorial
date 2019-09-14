@@ -57,6 +57,20 @@ https://segmentfault.com/a/1190000015363628
 
 
 
+# 二、vue-cli
+
+## 1、vue-cli2
+
+```bash
+npm install -g vue-cli
+或
+cnpm install -g vue-cli
+```
+
+
+
+
+
 
 
 

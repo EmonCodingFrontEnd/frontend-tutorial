@@ -303,6 +303,12 @@ aliases: remove, rm, r, un, unlink
 npm uninstall gulp --save-dev
 ```
 
+- 卸载全局安装的vue-cli
+
+```bash
+npm uninstall -g vue-cli
+```
+
 
 
 ### 3.3、npm update
@@ -333,10 +339,16 @@ npm ls [[<@scope>/]<pkg> ...]
 aliases: list, la, ll
 ```
 
-查看全局安装的模块及依赖
+- 查看全局安装的模块及依赖
 
 ```bash
 npm ls -g
+```
+
+- 查看全局安装的模块
+
+```bash
+npm ls -g --depth=0
 ```
 
 
@@ -418,6 +430,38 @@ npm cache verify
 ```bash
 npm cache clean
 ```
+
+### 3.9、npm root
+
+显示npm根目录
+
+```bash
+npm root [-g]
+```
+
+在标准输出上将有效的`node_modules`文件夹打印出来。
+
+### 3.10、npm init
+
+在项目中引导创建一个package.json文件
+
+安装包的信息可保存到项目的package.json文件中，以便后续的其他的项目开发或者他人合作使用，也就是说package.json在项目中是必不可少的。
+
+```bash
+npm init [-f|--force|-y|--yes]
+```
+
+
+
+### 3.11、cnpm
+
+安装：
+
+```bash
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
+cnpm是npm的国内镜像。
 
 
 
@@ -640,8 +684,35 @@ yarn config list
 全局安装依赖包
 
 ```bash
-yarn global<add/bin/list/remove/upgrade> [--prefix]
+yarn global <add/bin/list/remove/upgrade> [--prefix]
 ```
+
+
+
+### 3.7、yarn list
+
+```bash
+yarn list
+yarn list [--depth] [--pattern]
+```
+
+- 过滤列表
+
+```bash
+yarn list --pattern gulp
+yarn list --pattern "gulp|grunt"
+yarn list --pattern "gulp|grunt" --depth=1
+```
+
+
+
+### 3.8、yarn remove
+
+```bash
+yarn remove <package...>
+```
+
+
 
 
 
