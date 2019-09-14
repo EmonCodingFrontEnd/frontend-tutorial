@@ -461,6 +461,12 @@ npm root [-g]
 npm init [-f|--force|-y|--yes]
 ```
 
+- 无需人工干预的初始化
+
+```bash
+npm init -f
+```
+
 
 
 ### 3.11、cnpm

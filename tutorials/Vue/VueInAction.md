@@ -69,7 +69,15 @@ npm install -g vue-cli
 cnpm install -g vue-cli
 ```
 
-### 1.2、创建vue-cli项目
+- 查看
+
+```bash
+vue -V
+```
+
+
+
+### 1.2、创建vue-cli2项目
 
 ```bash
 vue init webpack <projectName>
@@ -99,10 +107,52 @@ npm run dev
 
 
 
+## 2、vue-cli3
+
+### 1.1、卸载vue-cli2
+
+```bash
+npm uni vue-cli -g
+```
+
+### 1.2、安装
+
+```bash
+npm install -g @vue/cli
+或
+cnpm install -g @vue/cli
+```
+
+- 查看
+
+```bash
+vue -V
+```
+
+- 启动图形界面
+
+```bash
+vue ui
+```
+
+### 1.3、创建vue-cli3项目
+
+```bash
+vue create <projectName>
+```
+
+安装完成后，根据提示启动项目：
+
+```bash
+cd <projectName>
+npm run serve
+或
+yarn serve
+```
 
 
 
 
 
 
-<u></u>
+
