@@ -61,10 +61,30 @@ https://segmentfault.com/a/1190000015363628
 
 ## 1、vue-cli2
 
+### 1.1、安装
+
 ```bash
 npm install -g vue-cli
 或
 cnpm install -g vue-cli
+```
+
+### 1.2、创建vue-cli项目
+
+```bash
+vue init webpack <projectName>
+```
+
+安装过程需要注意的点：
+
+- Install vue-router?(Y/n)是否安装vue-router，这是官方的路由，大多数情况下都使用，这里就输入“y”后回车即可。
+- Use ESLint to lint your code?(Y/n)是否使用ESLint管理代码，ESLint是个代码风格管理工具，是用来统一代码风格的，一般项目中都会使用。
+
+安装完成后，根据提示启动项目：
+
+```bash
+cd <projectName>
+npm run dev
 ```
 
 

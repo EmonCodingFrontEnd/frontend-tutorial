@@ -215,7 +215,7 @@ package.json文件的dependencies字段：
 
 
 
-- `-D,--save-dev`安装包信息将加入到devDependencies（开发阶段的依赖），所以开发阶段一般使用ta
+- `-D,--save-dev`安装包信息将加入到devDependencies（开发阶段的依赖），所以开发阶段一般使用它
 
 ```shell
 npm install gulp --save-dev 
@@ -284,6 +284,14 @@ npm install gulp
 ```shell
 npm install gulp -g
 ```
+
+- 全局安装加上`-D`效果，安装到开发和运行环境
+
+```bash
+npm install -gd vue-cli
+```
+
+
 
 
 
