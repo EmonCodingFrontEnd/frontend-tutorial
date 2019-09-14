@@ -197,12 +197,14 @@ npm install gulp@3.9.1
 
 
 
-- `S,--save`安装包信息将加入到dependencies(生产阶段的依赖）
+- `S,--save`安装包信息将加入到dependencies(生产阶段的依赖）【默认方式】
 
 ```shell
 npm install gulp --save 
 或
 npm install gulp -S
+或
+npm install gulp
 ```
 
 package.json文件的dependencies字段：
