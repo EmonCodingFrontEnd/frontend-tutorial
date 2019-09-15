@@ -4,21 +4,27 @@
 
 [TOC]
 
-# WebStorm学习笔记
+# 一、基本环境准备
 
-# 一、WebStorm配置
+## 1、WebStorm配置
 
-## 1、注册参考
+https://www.jianshu.com/p/165db5bb1392
+
+https://blog.csdn.net/coding_lin/article/details/81093890
+
+https://www.jianshu.com/p/ad8c3b480ef3
+
+### 1.1、注册参考
 
 获取注册码的原始引导地址：https://www.jianshu.com/p/133af2e4fe3f
 
-1、注册码：
+- 注册码：
 
 ```
 http://idea.lanyus.com/
 ```
 
-## 2、配置Node
+### 1.2、配置Node
 
 左侧： `Default Settings`->`Languages&Frameworks`->`Node.js and NPM`
 
@@ -37,23 +43,19 @@ C:\Program Files\nodejs\node.exe
 C:\Program Files\node_modules\npm
 ```
 
-## 3、调试
+### 1.3、调试
 
-## 3.1、安装谷歌访问助手
+## 2、安装谷歌访问助手
 
 https://github.com/haotian-wang/google-access-helper
 
-##  3.2、 配置WebStorm
-
-https://www.jianshu.com/p/165db5bb1392
-
-https://blog.csdn.net/coding_lin/article/details/81093890
-
-https://www.jianshu.com/p/ad8c3b480ef3
-
-## 3.3、安装vue-devtools
+## 3、安装vue-devtools
 
 https://segmentfault.com/a/1190000015363628
+
+## 4、安装nvm
+
+## 5、安装配置node环境
 
 
 
@@ -65,8 +67,6 @@ https://segmentfault.com/a/1190000015363628
 
 ```bash
 npm install -g vue-cli
-或
-cnpm install -g vue-cli
 ```
 
 - 查看
@@ -119,8 +119,6 @@ npm uni vue-cli -g
 
 ```bash
 npm install -g @vue/cli
-或
-cnpm install -g @vue/cli
 ```
 
 - 查看
@@ -151,6 +149,16 @@ yarn serve
 ```
 
 
+
+# 三、常用包安装
+
+## 1、axios
+
+一个基于promise的http库，可以用在浏览器和node.js中。
+
+```bash
+npm install axios --save
+```
 
 
 
