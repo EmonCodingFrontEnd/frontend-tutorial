@@ -157,7 +157,7 @@ yarn serve
 一个基于promise的http库，可以用在浏览器和node.js中。
 
 ```bash
-npm install axios --save
+npm i axios -S
 ```
 
 
