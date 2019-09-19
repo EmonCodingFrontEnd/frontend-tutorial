@@ -730,9 +730,45 @@ yarn remove <package...>
 
 
 
+# 四、Koa2
 
+## 1、koa-generator
 
+- 安装
 
+```bash
+npm install -g koa-generator
+```
+
+- 创建项目
+
+```bash
+koa2 <projectName>
+```
+
+```bash
+koa2 -e <projectName>
+```
+
+- 安装依赖
+
+```bash
+cd koa2-learn && npm install
+```
+
+- 运行项目
+
+```bash
+set debug=koa* & npm start koa2-learn
+或
+npm run dev
+```
+
+- 访问
+
+```bash
+http://localhost:3000
+```
 
 
 

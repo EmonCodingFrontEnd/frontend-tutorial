@@ -92,7 +92,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 ## 4.4、Auto Rename Tag
 
-- 功能描述：自动重命名标签
+- 功能描述：修改html标签时，会自动修改匹配的标签
 
 ## 4.5、HTML Boilerplate
 
@@ -165,6 +165,12 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 ## 4.20、React/Redux/react-router Snippets
 
 - 功能描述：React/Redux/react-router语法智能提示
+
+## 4.21、Auto Import - ES6,TS,JSX,TSX
+
+- 功能描述：Typescript 自动import提示
+
+
 
 # 五、快捷键
 
