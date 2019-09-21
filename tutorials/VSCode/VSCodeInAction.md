@@ -1,4 +1,4 @@
-VSCode使用详解
+# VSCode使用详解
 
 [返回列表](https://github.com/EmonCodingFrontEnd/frontend-tutorial)
 
