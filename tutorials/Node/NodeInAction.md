@@ -728,6 +728,57 @@ yarn list --pattern "gulp|grunt" --depth=1
 yarn remove <package...>
 ```
 
+## 4、nrm
+
+nrm 是一个 `npm` 源管理器，允许你快速地在 `npm` 源间切换。
+
+- 安装
+
+```bash
+npm install -g nrm
+```
+
+- 使用
+
+执行命令`nrm ls`查看可选的源。
+
+```bash
+nrm ls
+```
+
+![1569246324901](images/1569246324901.png)
+
+其中带`*`的是当前使用的源
+
+- 切换
+
+```bash
+nrm use <registry>
+```
+
+比如： `nrm use npm`
+
+- 增加
+
+你可以增加定制的源，特别适用于添加企业内部的私有源，执行命令`nrm add <registry> <url>`，其中`registry`为源名，`url`为源路径。
+
+```bash
+# 示例：
+nrm add registry http://192.168.10.127:8081/repository/npm-public/
+```
+
+- 删除
+
+```bash
+nrm del <registry>
+```
+
+- 测试速度
+
+```bash
+nrm test <registry>
+```
+
 
 
 # 四、Koa2

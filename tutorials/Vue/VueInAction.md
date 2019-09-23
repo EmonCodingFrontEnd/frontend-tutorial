@@ -148,6 +148,14 @@ npm run serve
 yarn serve
 ```
 
+## 1.4、安装@vue/cli-init
+
+```bash
+npm i -g @vue/cli-init
+或
+yarn global add @vue/cli-init
+```
+
 
 
 # 三、常用包安装
@@ -158,6 +166,32 @@ yarn serve
 
 ```bash
 npm i axios -S
+```
+
+## 2、Nuxt.js
+
+- 创建Nuxt项目
+
+```bash
+vue init nuxt-community/koa-template <project-name>
+```
+
+- 安装依赖
+
+```bash
+cd <project-name> # move to your project
+npm install # or yarn install*[see note below]
+```
+
+- 运行项目
+
+```bash
+# 以开发模式（热加载）启动KoaJS server在开发环境，监听 http://localhost:3000
+npm run dev
+# 编译生产环境的nuxt.js应用
+npm run build
+# 在生产环境启动
+npm start
 ```
 
 
