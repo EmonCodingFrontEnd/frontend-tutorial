@@ -148,7 +148,7 @@ npm run serve
 yarn serve
 ```
 
-## 1.4、安装@vue/cli-init
+### 1.4、安装@vue/cli-init
 
 ```bash
 npm i -g @vue/cli-init
@@ -156,19 +156,21 @@ npm i -g @vue/cli-init
 yarn global add @vue/cli-init
 ```
 
+## 3、Nuxt
 
+官网：https://zh.nuxtjs.org/
 
-# 三、常用包安装
-
-## 1、axios
-
-一个基于promise的http库，可以用在浏览器和node.js中。
+### 3.1、官方创建nuxt项目【推荐】
 
 ```bash
-npm i axios -S
+npx create-nuxt-app <项目名>
+或
+yarn create nuxt-app <项目名> 【推荐】
 ```
 
-## 2、Nuxt.js
+### 3.2、非官方创建
+
+非官方创建的方式： https://github.com/nuxt-community/koa-template
 
 - 创建Nuxt项目
 
@@ -197,4 +199,14 @@ npm start
 
 
 
+
+# 三、常用包安装
+
+## 1、axios
+
+一个基于promise的http库，可以用在浏览器和node.js中。
+
+```bash
+npm i axios -S
+```
 
