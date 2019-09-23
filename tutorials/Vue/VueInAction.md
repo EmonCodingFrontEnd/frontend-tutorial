@@ -162,7 +162,7 @@ yarn global add @vue/cli-init
 
 ### 3.1、官方创建nuxt项目【推荐】
 
-- 创建
+- 创建并安装依赖
 
 ```bash
 npx create-nuxt-app <项目名>【推荐】
@@ -170,9 +170,38 @@ npx create-nuxt-app <项目名>【推荐】
 yarn create nuxt-app <项目名> 
 ```
 
-- 安装
+- 安装依赖
 
+如果创建过程发生某一个依赖的版本错误，可以如下再次安装。
 
+```bash
+cd <项目名> && npm install
+或
+cd <项目名> && yarn install
+```
+
+- 开发环境运行
+
+```bash
+# 以开发模式（热加载）启动KoaJS server在开发环境，监听 http://localhost:3000
+npm run dev
+或
+yarn run dev
+```
+
+- 生产环境
+
+```bash
+# 编译生产环境的nuxt.js应用
+npm run build
+# 在生产环境启动
+npm start
+---------
+或
+---------
+yarn run build
+yarn start
+```
 
 ### 3.2、非官方创建
 
