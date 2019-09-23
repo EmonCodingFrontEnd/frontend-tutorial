@@ -162,11 +162,17 @@ yarn global add @vue/cli-init
 
 ### 3.1、官方创建nuxt项目【推荐】
 
+- 创建
+
 ```bash
-npx create-nuxt-app <项目名>
+npx create-nuxt-app <项目名>【推荐】
 或
-yarn create nuxt-app <项目名> 【推荐】
+yarn create nuxt-app <项目名> 
 ```
+
+- 安装
+
+
 
 ### 3.2、非官方创建
 
