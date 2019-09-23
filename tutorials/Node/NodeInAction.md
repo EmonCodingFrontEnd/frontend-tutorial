@@ -770,6 +770,36 @@ npm run dev
 http://localhost:3000
 ```
 
+## 2、中间件
+
+### 2.1、mongoose
+
+- 功能，mongodb
+
+```bash
+npm i mongoose
+```
+
+### 2.2、koa-generic-session
+
+- 功能，处理session
+
+```bash
+npm i koa-generic-session
+```
+
+### 2.3、koa-redis
+
+- 功能，redis
+
+```bash
+npm i koa-redis
+```
+
+
+
+
+
 
 
 
