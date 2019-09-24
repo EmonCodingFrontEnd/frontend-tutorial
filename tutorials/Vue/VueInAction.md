@@ -184,7 +184,7 @@ cd <项目名> && yarn install
 
 ```bash
 # 以开发模式（热加载）启动KoaJS server在开发环境，监听 http://localhost:3000
-npm run dev
+cd <项目名> && npm run dev
 或
 yarn run dev
 ```
@@ -193,9 +193,9 @@ yarn run dev
 
 ```bash
 # 编译生产环境的nuxt.js应用
-npm run build
+cd <项目名> && npm run build
 # 在生产环境启动
-npm start
+npm run start
 ---------
 或
 ---------

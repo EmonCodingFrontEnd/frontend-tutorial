@@ -779,6 +779,33 @@ nrm del <registry>
 nrm test <registry>
 ```
 
+## 5、npx
+
+npm从5.2版本开始，增加了npx命令。它有很多用处，这里只介绍该命令的主要使用场景。
+
+Node自带npm模块，所以可以直接使用npx命令。万一不能用，就要手动安装一下。
+
+```bash
+npm install -g npx
+```
+
+### 5.1、调用项目安装的模块
+
+npx想要解决的主要文档，就是调用项目内部安装的模块。比如，项目内部安装了测试工具Mocha。
+
+```bash
+npm install -D mocha
+```
+
+一般来说，调用Mocha，只能在项目脚本和package.json的`scripts`字段里面，如果想在命令行下调用，必须像下面这样。
+
+```bash
+# 项目的跟目录下执行
+$ node-modules/.bin/mocha --version
+```
+
+
+
 
 
 # 四、Koa2
