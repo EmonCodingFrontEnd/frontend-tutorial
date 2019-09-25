@@ -801,10 +801,61 @@ npm install -D mocha
 
 ```bash
 # 项目的跟目录下执行
-$ node-modules/.bin/mocha --version
+node-modules/.bin/mocha --version
 ```
 
+npx就是想解决这个问题，让项目内部安装的模块用起来更方便，只要像下面这样调用就行了。
 
+```bash
+npx mocha --version
+```
+
+npx的原理很简单，就是运行的时候，会到`node_modules/.bin`路径和环境变量`$PATH`里面，检查命令是否存在。由于npx会检查环境变量`$PATH`，所以系统命令也可以调用。
+
+```bash
+# 等同于ls
+npx ls
+```
+
+注意，Bash内置的命令不在`$PATH`里面，所以不能用。比如，`cd`是Bash命令，因此就不能用`npx cd`。
+
+### 5.2、避免全局安装模块
+
+除了调用项目内部模块，npx还能避免全局安装的模块。比如`create-react-app`这个模块是全局安装，npx可以运行它，而且不进行全局安装。
+
+```bash
+npx create-react-app my-react-app
+```
+
+上面代码运行时，npx将`create-react-app`下载到一个临时目录，使用以后再删除。所以，以后再次执行上面的命令，会重新下载`create-react-app`。
+
+下载全局模块时，npx允许指定版本。
+
+```bash
+npx uglify-js@3.1.0 main.js -o ./dist/main.js
+```
+
+上面代码指定使用3.1.0版本的`uglify-js`压缩脚本。
+
+注意，只要npx后面的模块无法在本地发现，就会下载同名模块。比如，本地没有安装`http-server`模块，下面的命令会自动下载该模块，在当前目录启动一个Web服务。
+
+```bash
+npx http-server
+```
+
+### 5.3、`--no-install`参数和`--ignore-existing`参数
+
+如果想让npx强制使用本地模块，不下载远程模块，可以使用`--no-install`参数。如果本地不存在该模块，就会报错。
+
+```bash
+npx --no-install http-server
+```
+
+反过来，如果忽略本地的同名模块，强制安装使用远程模块，可以使用`--ignore-existing`参数。比如，本地已经全局安装了`create-react-app`，但还是想使用远程模块，就用这个参数。
+
+```bash
+npx --ignore-existing create-react-app my-react-app
+```
 
 
 
