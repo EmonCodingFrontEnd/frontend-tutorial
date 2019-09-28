@@ -160,8 +160,6 @@ yarn global add @vue/cli-init
 
 官网：https://zh.nuxtjs.org/
 
-### 3.1、官方创建nuxt项目【推荐】
-
 - 创建并安装依赖
 
 ```bash
@@ -201,34 +199,6 @@ npm run start
 ---------
 yarn run build
 yarn start
-```
-
-### 3.2、非官方创建
-
-非官方创建的方式： https://github.com/nuxt-community/koa-template
-
-- 创建Nuxt项目
-
-```bash
-vue init nuxt-community/koa-template <project-name>
-```
-
-- 安装依赖
-
-```bash
-cd <project-name> # move to your project
-npm install # or yarn install*[see note below]
-```
-
-- 运行项目
-
-```bash
-# 以开发模式（热加载）启动KoaJS server在开发环境，监听 http://localhost:3000
-npm run dev
-# 编译生产环境的nuxt.js应用
-npm run build
-# 在生产环境启动
-npm start
 ```
 
 
