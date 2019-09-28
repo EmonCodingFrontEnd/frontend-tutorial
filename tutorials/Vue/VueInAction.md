@@ -246,6 +246,28 @@ npm install babel-core babel-preset-es2015 babel-cli
   }
 ```
 
+### 3.3、引入scss
+
+1. 安装
+
+```bash
+npm install sass-loader node-sass
+```
+
+安装时发现失败，如下：
+
+![1569667312812](images/1569667312812.png)
+
+在admin模式下，全局安装windows构建工具即可！
+
+```bash
+npm install --global --production windows-build-toold
+```
+
+
+
+
+
 
 
 # 三、常用包安装
