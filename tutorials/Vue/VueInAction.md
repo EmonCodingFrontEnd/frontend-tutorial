@@ -160,6 +160,8 @@ yarn global add @vue/cli-init
 
 官网：https://zh.nuxtjs.org/
 
+### 3.1、基本安装
+
 - 创建并安装依赖
 
 ```bash
@@ -168,12 +170,14 @@ npx create-nuxt-app <项目名>【推荐】
 yarn create nuxt-app <项目名> 
 ```
 
+![1569643536716](images/1569643536716.png)
+
 - 安装依赖
 
 如果创建过程发生某一个依赖的版本错误，可以如下再次安装。
 
 ```bash
-cd <项目名> && npm install
+cd <项目名> && npm install --update-binary 【推荐】重新编译下
 或
 cd <项目名> && yarn install
 ```
@@ -201,9 +205,46 @@ yarn run build
 yarn start
 ```
 
-![1569641382343](images/1569641382343.png)
+
 
 ![1569641442496](images/1569641442496.png)
+
+备注：不要用github的`.gitignore`覆盖命令生成的。
+
+### 3.2、安装配置babel
+
+注：引入`babel`可以使用`import`
+
+1. 安装babel
+
+```bash
+# 在项目的根目录下
+npm install babel-core babel-preset-es2015 babel-cli
+```
+
+2. 添加`.babelrc`
+
+在项目的根目录下，添加`babelrc`
+
+```json
+{
+    "presets": ["es2015"]
+}
+```
+
+3. 修改`package.json`
+
+添加`--exec babel-node`，注意是2处，dev和start都需要，如下：
+
+```json
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server --exec babel-node",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/index.js --exec babel-node",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  }
+```
 
 
 
