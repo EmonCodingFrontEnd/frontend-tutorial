@@ -170,6 +170,40 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 - 功能描述：Typescript 自动import提示
 
+## 4.22、Live Server
+
+- 功能描述：网页代码实时预览
+
+## 4.23、Todo Tree
+
+- 功能描述：对代码中添加的关键字TODO、FIXME生成直观的TODO结构，方便项目后期维护和更迭
+
+## 4.24、background
+
+- 功能描述：背景设置
+- 配置文件
+
+```json
+    "background.customImages": [
+        "C:/Job/JobResource/IdeaProjects/139-1604251II9.jpg"
+    ],
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "opacity": 0.15,
+        "background-size":"cover"
+    },
+    "background.useDefault": false
+```
+
+
+
 
 
 # 五、快捷键
@@ -181,6 +215,10 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 【重点】自定义快捷键
 
 【文件】->【首选项】->【键盘快捷方式】（Ctrl+K Ctrl+S）
+
+【重点】万能快捷键
+
+Ctrl+Shift+P：打开命令版
 
 ## 5.1、编辑
 
