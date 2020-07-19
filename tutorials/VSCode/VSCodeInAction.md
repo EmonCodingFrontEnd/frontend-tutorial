@@ -207,7 +207,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 - 功能描述：远程开发工具
 - 配置方式：如下图所示，打开`config`
 
-![image-20200719162019969](images/image-20200719162019969.png)
+![image-20200719162019969](./images/image-20200719162019969.png)
 
 在打开的`config`文件中，编辑`Host`、`HostName`、`User`：
 
