@@ -266,10 +266,6 @@ npm install --global --production windows-build-toold
 
 
 
-
-
-
-
 # 三、常用包安装
 
 ## 1、axios
@@ -279,4 +275,12 @@ npm install --global --production windows-build-toold
 ```bash
 npm i axios -S
 ```
+
+## 2、webpack
+
+```bash
+npm install -g webpack
+```
+
+
 
