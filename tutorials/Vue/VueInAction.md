@@ -281,6 +281,3 @@ npm i axios -S
 ```bash
 npm install -g webpack
 ```
-
-
-
