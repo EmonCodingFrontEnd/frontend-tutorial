@@ -181,7 +181,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 ## 4.24、background
 
 - 功能描述：背景设置
-- 配置文件
+- 配置方式：【首选项】->【设置】->【扩展】->【Plugin background】，打开`settings.json`配置如下
 
 ```json
     "background.customImages": [
@@ -202,7 +202,21 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
     "background.useDefault": false
 ```
 
+## 4.25、Remote Development
 
+- 功能描述：远程开发工具
+- 配置方式：如下图所示，打开`config`
+
+![image-20200719162019969](images/image-20200719162019969.png)
+
+在打开的`config`文件中，编辑`Host`、`HostName`、`User`：
+
+```
+# Read more about SSH config files: https://linux.die.net/man/5/ssh_config
+Host house-new
+    HostName 192.168.0.116
+    User emon
+```
 
 
 
