@@ -22,7 +22,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 ## 2.1、用户界面
 
-![1567913755830](./images/1567913755830.png)
+![1567913755830](images/1567913755830.png)
 
 
 
@@ -110,73 +110,67 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 - 功能描述：智能提示CSS类名以及id
 
-## 4.9、VueHelper
+## 4.9、ESLint
 
-- 功能描述：VueHelper提供.vue格式支持，以及语法高亮和补全
-
-## 4.10、ESLint
-
-## 4.11、Bracket Pair Colorizer
+## 4.10、Bracket Pair Colorizer
 
 - 功能描述：给括号加上不同的颜色，便于区分不同的区块，使用者可以定义不同括号类型和不同颜色
 
-## 4.12、Debugger for Chrome
+## 4.11、Debugger for Chrome
 
 - 功能描述：映射VSCode上的断点到chrome上，方便调试
 
-## 4.13、GitLens
+## 4.12、GitLens
 
 - 功能描述：方便查看git日志，git重度使用者必备
 
-## 4.14、HTML Snippets
+## 4.13、HTML Snippets
 
 - 功能描述：智能提示HTML标签，以及标签含义
 
-## 4.15、JavaScript(ES6) code snippets
+## 4.14、JavaScript(ES6) code snippets
 
 - 功能描述：ES6语法智能提示，以及快速输入，不仅仅支持js，还支持.ts，.jsx，.jsx，.html, .vue，省去了配置其支持各种包含js代码文件的时间。
 
-## 4.16、open in browser
+## 4.15、open in browser
 
 - 功能描述：VSCode不像IDE一样能够直接在浏览器中打开html，而该插件支持快捷键与鼠标右键快速在浏览器中打开html文件，支持自定义打开指定的浏览器，包括：Firefox,Chrome,Opera,IE以及Shfari。
 
-## 4.17、Path Intellisense
+## 4.16、Path Intellisense
 
 - 功能描述：自动提示文件路径，支持各种快速引入文件。
 
-## 4.18、Vetur
+## 4.17、Vetur
 
 - 功能描述：Vue多功能集成插件，包括：语法高亮，智能提示，emmet，错误提示，格式化，自动补全，debugger。vscode官方钦定Vue插件，Vue开发者必备。
 
-补充两个：
+### 4.17.1、VueHelper
 
-### 4.18.1、VueHelper
+- 功能描述：VueHelper提供.vue格式支持，以及语法高亮和补全
 
-- 功能描述：Vue代码片段
-
-### 4.18.2、Vue TypeScript Snipets
-
-- 功能描述：Vue的typescript代码片段
-
-## 4.19、Npm Intellisense
+## 4.18、Npm Intellisense
 
 - 功能描述：require时包提示
 
-## 4.20、React/Redux/react-router Snippets
+## 4.19、React/Redux/react-router Snippets
 
 - 功能描述：React/Redux/react-router语法智能提示
 
-## 4.21、Auto Import - ES6,TS,JSX,TSX
+## 4.20、Auto Import - ES6,TS,JSX,TSX
 
 - 功能描述：Typescript 自动import提示
 
-## 4.22、Live Server
+## 4.21、Live Server
 
 - 功能描述：网页代码实时预览
 
-## 4.23、Todo Tree
+## 4.22、Todo Tree
 
 - 功能描述：对代码中添加的关键字TODO、FIXME生成直观的TODO结构，方便项目后期维护和更迭
+
+## 4.23、 TODO Highlight
+
+- TODO和FIXME的语法高亮
 
 ## 4.24、background
 
@@ -207,7 +201,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 - 功能描述：远程开发工具
 - 配置方式：如下图所示，打开`config`
 
-![image-20200719162019969](./images/image-20200719162019969.png)
+![image-20200719162019969](images/image-20200719162019969.png)
 
 在打开的`config`文件中，编辑`Host`、`HostName`、`User`：
 
