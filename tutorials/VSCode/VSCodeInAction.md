@@ -144,9 +144,13 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 - 功能描述：Vue多功能集成插件，包括：语法高亮，智能提示，emmet，错误提示，格式化，自动补全，debugger。vscode官方钦定Vue插件，Vue开发者必备。
 
-### 4.17.1、VueHelper
+### 4.17.1、VueHelper【未用】
 
 - 功能描述：VueHelper提供.vue格式支持，以及语法高亮和补全
+
+## 4.17.2、Vue VSCode Snippets【已用】
+
+- 功能描述：Vue小片段
 
 ## 4.18、Npm Intellisense
 
