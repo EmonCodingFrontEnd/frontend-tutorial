@@ -151,6 +151,7 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 ## 4.17.2、Vue VSCode Snippets【已用】
 
 - 功能描述：Vue小片段
+- 使用说明：[点击查看使用说明](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
 ## 4.18、Npm Intellisense
 
