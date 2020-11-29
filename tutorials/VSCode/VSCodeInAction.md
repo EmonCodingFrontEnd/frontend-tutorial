@@ -78,13 +78,27 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 #### 1. pylint
 
-- python语法检查
+- 作用
+
+python语法检查
+
+- 安装命令
+
+```bash
+pip install pylint
+```
 
 #### 2. autopep8
 
-- python格式化支持
+- 作用
 
+python格式化支持
 
+- 安装命令
+
+```bash
+pip install autopep8
+```
 
 # 四、插件安装
 
