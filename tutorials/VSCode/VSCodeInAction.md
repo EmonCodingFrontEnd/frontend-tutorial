@@ -74,6 +74,16 @@ Visual Studio Code官方下载地址： https://code.visualstudio.com/
 
 ## 3.2、Python项目
 
+### 3.2.1、Python相关插件
+
+#### 1. pylint
+
+- python语法检查
+
+#### 2. autopep8
+
+- python格式化支持
+
 
 
 # 四、插件安装
