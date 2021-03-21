@@ -25,3 +25,4 @@
 - [ES6](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/ES6)
 - [VSCode](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/VSCode)
 
+- [TypeScript](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/TypeScript)
