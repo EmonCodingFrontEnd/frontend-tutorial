@@ -17,12 +17,13 @@
 
 # 目录
 
+- [JavaScript](https://github.com/EmonCodingFrontEnd/frontend-tutorial/blob/master/tutorials/JavaScript/JavaScriptInAction.md)
+- [TypeScript](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/TypeScript)
+
 - [Vue](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/Vue)
 - [React](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/React)
 - [Node](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/Node)
-
 - [HTTP](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/HTTP)
 - [ES6](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/ES6)
 - [VSCode](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/VSCode)
 
-- [TypeScript](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/TypeScript)
