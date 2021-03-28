@@ -8,6 +8,8 @@
 
 TypeScript官网地址：  https://www.typescriptlang.org/
 
+TypeScript官方文档地址： https://www.typescriptlang.org/docs/handbook/intro.html
+
 ## 1.1、安装TypeScript
 
 通过`npm`来安装：
@@ -40,7 +42,7 @@ tsc fileName.ts
 
 2. 在WebStorm中添加监听文件
 
-`File`->`Settings`->`File Watchers`->`TypeScript`，这里选择`TypeScript`，但是File Watchers下默认是不存在的。添加如下图：
+`File`->`Settings`->`File Watchers`->`TypeScript`，这里选择`TypeScript`，但是File Watchers默认是不存在的。添加如下图：
 
 ![image-20210321170502698](images/image-20210321170502698.png)
 
@@ -53,7 +55,7 @@ $FileNameWithoutExtension$.js:$FileNameWithoutExtension$.js.map
 
 
 
-2. 自动执行TypeScript
+3. 自动执行TypeScript
 
 - WebScorm安装直接运行所需依赖包
 
@@ -63,3 +65,33 @@ npm install -g ts-node
 
 - 安装IDE插件![image-20210321152819636](images/image-20210321152819636.png)
 
+
+
+## 1.3、配置TypeScript使用三方库
+
+查询TypeScript对三方库的声明：
+
+[TypeScript声明的三方库查询](https://www.typescriptlang.org/dt/search?search=)
+
+如果项目没有`package.json`文件，执行`npm`初始化：
+
+```bash
+npm init
+# 或者
+npm init -y
+```
+
+然后执行安装TypeScript对三方库的声明文件：
+
+```bash
+# 比如jQuery
+npm install --save @types/jquery
+```
+
+查看项目的安装情况：
+
+```bash
+# 在项目的根目录下执行命令
+npm ls
+# 或者打开编辑器，查看 node_modules 
+```
