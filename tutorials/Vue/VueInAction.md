@@ -281,3 +281,16 @@ npm i axios -S
 ```bash
 npm install -g webpack
 ```
+
+
+
+# 九、常见问题
+
+## 1、git bash 使用 vue-cli 创建项目无法切换选项
+
+配置`~/.bashrc`：
+
+```bash
+alias vue='winpty vue.cmd'
+```
+
