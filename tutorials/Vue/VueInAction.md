@@ -156,6 +156,8 @@ npm i -g @vue/cli-init
 yarn global add @vue/cli-init
 ```
 
+
+
 ## 3、Nuxt
 
 官网：https://zh.nuxtjs.org/
@@ -280,6 +282,29 @@ npm i axios -S
 
 ```bash
 npm install -g webpack
+```
+
+
+
+## Vue2和Vue3声明周期对比
+
+```bash
+// mapping vue2 to vue3
+beforeCreate -> use setup()
+created -> use setup()
+beforeMount -> onBeforeMount
+mounted -> onMounted
+beforeUpdate -> onBeforeUpdate
+updated -> onUpdated
+beforeDestroy -> onBeforeUnmount
+destroyed -> onUnmounted
+activated -> onActivated
+deactivated -> onDeactivated
+errorCaptured -> onErrorCaptured
+
+// added
+onRenderTracked
+onRenderTriggered
 ```
 
 
