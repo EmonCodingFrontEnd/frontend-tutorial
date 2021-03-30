@@ -268,6 +268,38 @@ npm install --global --production windows-build-toold
 
 
 
+## 4、基于`Vue CLI v4.5.12`创建包含`TypeScript`的项目
+
+- 第一步
+
+```bash
+vue create zheye
+```
+
+- 第二步
+
+![image-20210330133911598](images/image-20210330133911598.png)
+
+- 第三步
+
+![image-20210330133958839](images/image-20210330133958839.png)
+
+- 第四部
+
+![image-20210330134026807](images/image-20210330134026807.png)
+
+- 第五步
+
+![image-20210330134329141](images/image-20210330134329141.png)
+
+- 第六步
+
+![image-20210330134418789](images/image-20210330134418789.png)
+
+- 等待很久，完成！
+
+![image-20210330134805232](images/image-20210330134805232.png)
+
 # 三、常用包安装
 
 ## 1、axios
