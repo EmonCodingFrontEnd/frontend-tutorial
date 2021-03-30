@@ -300,6 +300,10 @@ vue create zheye
 
 ![image-20210330134805232](images/image-20210330134805232.png)
 
+- 目录结构
+
+![image-20210330180516856](images/image-20210330180516856.png)
+
 # 三、常用包安装
 
 ## 1、axios
