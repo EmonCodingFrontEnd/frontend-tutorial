@@ -419,6 +419,14 @@ npm config delete <key>
 npm config edit
 ```
 
+- 查看所有配置默认值
+
+```bash
+npm config ls -l
+```
+
+
+
 ### 3.8、npm cache 
 
 管理模块的缓存
