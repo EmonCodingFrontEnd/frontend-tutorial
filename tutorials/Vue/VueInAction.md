@@ -306,7 +306,7 @@ vue create zheye
 
 # 三、常用包安装
 
-## 1、axios
+- axios
 
 一个基于promise的http库，可以用在浏览器和node.js中。
 
@@ -314,11 +314,35 @@ vue create zheye
 npm i axios -S
 ```
 
-## 2、webpack
+- webpack
 
 ```bash
 npm install -g webpack
 ```
+
+- Bootstrap
+
+  - 安装最新版
+
+  ```
+  npm install bootstrap@next
+  ```
+
+  - 安装指定版本
+
+  ```
+  gem install bootstrap -v 5.0.0.beta3
+  ```
+
+- mitt
+
+```bash
+npm install --save mitt
+```
+
+
+
+
 
 
 
