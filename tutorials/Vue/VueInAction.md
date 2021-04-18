@@ -323,7 +323,11 @@ npm install --save mitt
 npm install vue-router@4
 ```
 
+- vuex
 
+```bash
+npm install vuex@next
+```
 
 
 
