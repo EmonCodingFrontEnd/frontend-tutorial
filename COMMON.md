@@ -6,7 +6,7 @@
 
 # 列表
 
-## 1、统一代码风格工具——EditorConfig
+## 1、统一代码风格工具EditorConfig
 
 EditorConfig不是什么软件，而是一个名称为`.editorconfig`的自定义文件。该文件用来定义项目的编码规范，编辑器的行为会与`.editorconfig`文件中定义的一致，并且其优先级比编辑器自身的设置要高，这在多人合作开发项目时十分有用且必要。
 
@@ -52,6 +52,10 @@ https://editorconfig.org/
 英文官网： https://eslint.org/
 
 中文官网： http://eslint.cn/
+
+- 如果保证TypeScript中对象格式化添加前后空格
+
+【Setting】->【Editor】->【CodeStyle】->【TypeScript】->【Spaces】->【Within】->【Object literal braces】，勾选即可。
 
 
 
@@ -158,11 +162,22 @@ C:\Program Files\nodejs\node.exe
 ```
 
 - 勾选`Coding assistance for Node.js`
+
 - `package manager` 选择npm的路径，比如：
 
-```
-C:\Program Files\nodejs
-```
+  - 比如：npm
+
+  ```bash
+  C:\Applications\nodejs\node_modules\npm
+  ```
+
+  - 比如：yarn
+
+  ```bash
+  C:\Applications\nodejs\node_modules\yarn
+  ```
+
+
 
 ### 3、配置Node提示
 

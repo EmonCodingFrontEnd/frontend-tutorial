@@ -24,25 +24,6 @@ https://www.jianshu.com/p/ad8c3b480ef3
 http://idea.lanyus.com/
 ```
 
-### 1.2、配置Node
-
-左侧： `Default Settings`->`Languages&Frameworks`->`Node.js and NPM`
-
-右侧：
-
--  `Node interpreter`: 选择 node.exe 存在的路径，比如：
-
-```
-C:\Program Files\nodejs\node.exe
-```
-
-- 勾选`Coding assistance for Node.js`
-- `Package manager`: 选择包含npm的路径，比如：
-
-```
-C:\Program Files\node_modules\npm
-```
-
 ### 1.3、调试
 
 ## 2、安装谷歌访问助手
@@ -52,10 +33,6 @@ https://github.com/haotian-wang/google-access-helper
 ## 3、安装vue-devtools
 
 https://segmentfault.com/a/1190000015363628
-
-## 4、安装nvm
-
-## 5、安装配置node环境
 
 
 
@@ -339,6 +316,20 @@ npm install -g webpack
 ```bash
 npm install --save mitt
 ```
+
+- vue-router
+
+```bash
+npm install vue-router@4
+```
+
+
+
+
+
+
+
+
 
 
 
