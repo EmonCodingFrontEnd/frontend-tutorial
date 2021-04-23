@@ -127,8 +127,7 @@ C:\Program Files\nodejs\node.exe
     - `JavaScript`
       - `Libraries`
 - 右侧选择`Download`，打开Download Library界面，搜索node并选择，然后点击Download and Install按钮下载并安装，完成后可以看到如下图：
-
-![20180907135457](../../images/20180907135457.png)
+![20180907135457](images/20180907135457.png)
 
 ### 3、启用EditorConfig
 
