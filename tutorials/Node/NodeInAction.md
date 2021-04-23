@@ -16,7 +16,64 @@
 
 # 一、Node
 
-## 1、CommonJS规范
+## 1、安装nvm和Node/npm
+
+### 1.1、安装nvm
+
+下载地址： <https://github.com/coreybutler/nvm-windows/releases>
+
+1. 下载 nvm-setup.zip
+2. 安装nvm
+
+### 1.2、安装Node/npm
+
+nodejs官网：<https://nodejs.org/en/>
+
+npmjs官网： <https://www.npmjs.com/>
+
+1. 打开cmd
+2. 在官网查看可安装版本
+
+<https://nodejs.org/zh-cn/>
+
+3. 安装
+
+安装长期维护版本，推荐多数用户使用（LTS）
+
+**推荐在Linux环境通过nvm ls-remote查看LTS版本安装**
+
+```
+nvm install v8.11.3
+# 或者
+nvm install v6.14.3
+```
+
+**以上安装，会安装node和对应的npm版本**
+
+4. 使用
+
+```
+nvm use v8.11.3
+# 或者
+nvm use v6.14.3
+```
+
+5. 校验
+
+```
+node --version
+npm --version
+```
+
+6. 配置淘宝npm镜像【推荐】
+
+```shell
+npm config set registry https://registry.npm.taobao.org
+```
+
+
+
+## 2、CommonJS规范
 
 ```shell
 # 查找全局依赖安装的位置
@@ -25,7 +82,7 @@ npm root -g
 
 
 
-## 2、global
+## 3、global
 
 - CommonJS
 - Buffer、process、console
@@ -33,7 +90,7 @@ npm root -g
 
 
 
-## 3、调试
+## 4、调试
 
 - Inspector
 
@@ -41,9 +98,9 @@ npm root -g
 
 
 
-## 4、NodeJS基础API
+## 5、NodeJS基础API
 
-### 4.1、path
+### 5.1、path
 
 - `__dirname`和`__filename`总是返回文件的绝对路径。
 
@@ -55,7 +112,7 @@ npm root -g
 
 
 
-### 4.2、Buffer
+### 5.2、Buffer
 
 - Buffer用于处理二进制数据流
 - 实例类似整数数组，大小固定
@@ -63,9 +120,9 @@ npm root -g
 
 
 
-## 5、零碎知识
+## 6、零碎知识
 
-### 5.1、常用模块
+### 6.1、常用模块
 
 - chalk
 
@@ -867,7 +924,17 @@ npx --ignore-existing create-react-app my-react-app
 
 
 
-# 四、Koa2
+# 四、安装常用模块
+
+## 1、`dependencies`类型包
+
+
+
+## 2、`devDependencies`类型包
+
+
+
+# 五、Koa2
 
 ## 1、koa-generator
 
