@@ -466,7 +466,7 @@ npm root [-g]
 安装包的信息可保存到项目的package.json文件中，以便后续的其他的项目开发或者他人合作使用，也就是说package.json在项目中是必不可少的。
 
 ```bash
-npm init [-f|--force|-y|--yes]
+npm init [-f|--force|-y|--yes|--scope]
 ```
 
 - 无需人工干预的初始化
@@ -932,8 +932,6 @@ npm i koa-generic-session
 ```bash
 npm i koa-redis
 ```
-
-
 
 
 
