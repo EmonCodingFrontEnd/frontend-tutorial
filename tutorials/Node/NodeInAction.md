@@ -530,6 +530,8 @@ npm init [-f|--force|-y|--yes|--scope]
 
 ```bash
 npm init -f
+或者
+npm init -y
 ```
 
 
@@ -934,7 +936,13 @@ npx --ignore-existing create-react-app my-react-app
 
 
 
-# 五、Koa2
+# 五、常用前端依赖
+
+## 1、babel
+
+
+
+# 六、Koa2
 
 ## 1、koa-generator
 
