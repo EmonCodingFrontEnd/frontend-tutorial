@@ -204,9 +204,28 @@ npm install --save-dev pre-commit
 
 -  如何保证TypeScript中对象格式化添加前后空格
 
-  【Setting】->【Editor】->【CodeStyle】->【TypeScript】->【Spaces】->【Within】->【Object literal braces】，勾选即可。
+【Setting】->【Editor】->【CodeStyle】->【TypeScript】->【Spaces】->【Within】->【Object literal braces】，勾选即可。
 
-- 
+-  ES6导入导出时变量结构的花括号前后添加空格
+
+【Setting】->【Editor】->【CodeStyle】->【TypeScript】->【Spaces】->【Within】->【ES6 import/export braces】，勾选即可。
+
+- 配置import文件时使用单引号，不加分号
+  - 导航
+
+  【Setting】->【Editor】->【CodeStyle】->【TypeScript】-【Spaces】->【Punctuation】
+
+  - 配置
+
+  `Don't use` semicolon to terminate statements `in new code`
+
+  Use `single` quotes `in new code`
+
+  Trailing comma: `Keep`
+
+- 配置函数名和括号之间有一个空格
+
+【Setting】->【Editor】->【CodeStyle】->【TypeScript】->【Spaces】->【Before parentheses】->【Function declaration parentheses】，勾选即可。
 
 ## 三、插件安装
 

@@ -24,7 +24,6 @@ npm install -g typescript
 # 查看 tsc 版本
 tsc -v 或者 tsc --version
 # 编译 ts 文件
-
 tsc fileName.ts
 ```
 
@@ -95,3 +94,26 @@ npm install --save @types/jquery
 npm ls
 # 或者打开编辑器，查看 node_modules 
 ```
+
+
+
+# 九、常见问题
+
+- TypeScript中变量命名问题
+
+  - 问题描述：
+
+  ```
+  TS2451: Cannot redeclare block-scoped variable 'result'.
+  ```
+
+  - 原因
+
+  变量声明重复，在项目其他文件声明过了。
+
+  - 解决
+
+    在脚本文件最后一行，添加：`export {}`，将文件声明为模块，限制`result`的作用域，不会和其他文件同名变量冲突。
+
+  
+
