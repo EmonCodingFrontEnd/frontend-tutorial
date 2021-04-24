@@ -999,6 +999,18 @@ npm install --save @babel/polyfill
 
 我们使用 `@babel/cli` 从终端运行 Babel，利用 `@babel/polyfill` 来模拟所有新的 JavaScript 功能，而 `env` preset 只对我们所使用的并且目标浏览器中缺失的功能进行代码转换和加载 polyfill。
 
+## 2、webpack
+
+[webpack官方文档](https://webpack.docschina.org/concepts/)
+
+- 安装
+
+```bash
+npm install webpack webpack-cli --save-dev
+```
+
+
+
 # 六、Koa
 
 ## 1、koa-generator
