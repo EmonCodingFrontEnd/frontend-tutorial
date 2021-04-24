@@ -940,9 +940,66 @@ npx --ignore-existing create-react-app my-react-app
 
 ## 1、babel
 
+[babel官方文档](https://www.babeljs.cn/docs/usage)
 
+- 安装
 
-# 六、Koa2
+```bash
+npm install --save-dev @babel/core @babel/cli @babel/preset-env
+npm install --save @babel/polyfill
+```
+
+- 创建文件并配置`babel.config.json`（需要V7.8.0或更高版本，并将以下内容复制到此文件中：
+
+```bash
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "targets": {
+          "edge": "17",
+          "firefox": "60",
+          "chrome": "67",
+          "safari": "11.1"
+        },
+        "useBuiltIns": "usage",
+        "corejs": "3.6.5"
+      }
+    ]
+  ]
+}
+```
+
+>上述浏览器列表仅用于示例。请根据你所需要支持的浏览器进行调整。参见 [此处](https://www.babeljs.cn/docs/babel-preset-env) 以了解 `@babel/preset-env` 可接受哪些参数。
+
+- 文件转换
+
+  - 文件：
+
+  ```bash
+  babel src/index.js -o dist/index.js
+  ```
+
+  - 文件夹
+
+  ```bash
+  babel src -d dist
+  ```
+
+  - 实时监控
+
+  ```bash
+  babelk src -w -d dist
+  ```
+
+> 注意：如果是在IDE的控制台，可以去掉`./node_modules/.bin/`；如果是在类似`Git Bash`控制台，需要带上`./node_modules/.bin/`；比如：`./node_modules/.bin/babel src -d dist`
+
+- 总结
+
+我们使用 `@babel/cli` 从终端运行 Babel，利用 `@babel/polyfill` 来模拟所有新的 JavaScript 功能，而 `env` preset 只对我们所使用的并且目标浏览器中缺失的功能进行代码转换和加载 polyfill。
+
+# 六、Koa
 
 ## 1、koa-generator
 
