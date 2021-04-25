@@ -930,6 +930,52 @@ npx --ignore-existing create-react-app my-react-app
 
 ## 1、`dependencies`类型包
 
+- axios
+
+一个基于promise的http库，可以用在浏览器和node.js中
+
+```bash
+npm i axios -S
+```
+
+- webpack
+
+```bash
+npm install -g webpack
+```
+
+- Bootstrap
+
+  - 安装最新版
+
+  ```
+  npm install bootstrap@next
+  ```
+
+  - 安装指定版本
+
+  ```
+  gem install bootstrap -v 5.0.0.beta3
+  ```
+
+- mitt
+
+```bash
+npm install --save mitt
+```
+
+- vue-router
+
+```bash
+npm install vue-router@4
+```
+
+- vuex
+
+```bash
+npm install vuex@next
+```
+
 
 
 ## 2、`devDependencies`类型包
