@@ -976,6 +976,13 @@ npm install vue-router@4
 npm install vuex@next
 ```
 
+- markdown-it
+
+```baash
+npm install markdown-it --save
+npm install --save @types/markdown-it
+```
+
 
 
 ## 2、`devDependencies`类型包
