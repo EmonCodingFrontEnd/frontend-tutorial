@@ -548,6 +548,58 @@ cnpm是npm的国内镜像。
 
 
 
+## 4、NRM命令
+
+​		nrm(npm registry manager)是npm的镜像源管理工具，有时候国外资源太慢，使用这个就可以快速地在npm源之间切换。
+
+### 1、安装nrm
+
+```bash
+npm install nrm -g
+```
+
+### 2、查看镜像源
+
+```bash
+$ nrm ls
+
+  npm -------- https://registry.npmjs.org/
+  yarn ------- https://registry.yarnpkg.com/
+  cnpm ------- http://r.cnpmjs.org/
+* taobao ----- https://registry.npm.taobao.org/
+  nj --------- https://registry.nodejitsu.com/
+  npmMirror -- https://skimdb.npmjs.com/registry/
+  edunpm ----- http://registry.enpmjs.org/
+```
+
+### 3、切换镜像源
+
+```bash
+nrm use taobao
+```
+
+### 4、增加
+
+你可以增加定制的源，特别适用于添加企业内部的私有源，执行命令： `nrm add <registry> <url>`，其中registry为源名，url为源的路径。
+
+```bash
+nrm add registry http://registry.npm.frp.trmap.cn/
+```
+
+### 5、删除
+
+执行命令：`nrm del <registry>`删除对应的源。
+
+### 6、测试速度
+
+你还可以通过 `nrm test` 测试相应源的响应时间。
+
+```bash
+nrm test npm
+```
+
+
+
 # 三、YARN
 
 [Yarn中文官网](https://yarn.bootcss.com/)
