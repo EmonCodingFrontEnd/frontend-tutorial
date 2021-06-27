@@ -373,7 +373,7 @@ npm uninstall gulp --save-dev
 - 卸载全局安装的vue-cli
 
 ```bash
-npm uninstall -g vue-cli
+npm uninstall vue-cli -g
 ```
 
 
