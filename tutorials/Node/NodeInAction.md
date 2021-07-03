@@ -1035,6 +1035,12 @@ npm install markdown-it --save
 npm install --save @types/markdown-it
 ```
 
+- normalize.css
+
+```bash
+npm install --save normalize.css
+```
+
 
 
 ## 2、`devDependencies`类型包
