@@ -30,6 +30,8 @@ http://idea.lanyus.com/
 
 https://github.com/haotian-wang/google-access-helper
 
+https://github.com/zcjunblog/google-access-helper2021
+
 ## 3、安装vue-devtools
 
 https://segmentfault.com/a/1190000015363628
