@@ -1041,6 +1041,14 @@ npm install --save @types/markdown-it
 npm install --save normalize.css
 ```
 
+- mockjs
+
+```bash
+npm install mockjs
+```
+
+
+
 
 
 ## 2、`devDependencies`类型包
