@@ -1047,7 +1047,11 @@ npm install --save normalize.css
 npm install mockjs
 ```
 
+- Vant
 
+```bash
+npm i vant@next -S
+```
 
 
 
