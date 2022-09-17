@@ -570,6 +570,7 @@ $ nrm ls
   nj --------- https://registry.nodejitsu.com/
   npmMirror -- https://skimdb.npmjs.com/registry/
   edunpm ----- http://registry.enpmjs.org/
+  ss --------- https://repo.ishanshan.com/repository/ss-public/
 ```
 
 ### 3、切换镜像源
