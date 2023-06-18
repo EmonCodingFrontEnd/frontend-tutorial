@@ -71,7 +71,16 @@ npm --version
 npm config set registry https://registry.npm.taobao.org
 ```
 
+常用命令：
 
+| 命令                  | 说明                          |
+| --------------------- | ----------------------------- |
+| nvm list available    | 显示所有可以下载的Node.js版本 |
+| nvm list              | 显示已安装的版本              |
+| nvm install 18.12.1   | 安装18.12.1版本的Node.js      |
+| nvm install latest    | 安装最新版本的Node.js         |
+| nvm uninstall 18.12.1 | 删除某个版本的Node.js         |
+| nvm use 18.12.1       | 切换到18.12.1版本的Node.js    |
 
 ## 2、CommonJS规范
 
@@ -449,7 +458,8 @@ aliases: c
 - 设置淘宝镜像
 
 ```shell
-npm config set registry https://registry.npm.taobao.org
+npm config set registry https://registry.npm.taobao.org # 已废弃
+npm config set registry https://registry.npmmirror.com
 ```
 
 - 获取镜像设置
@@ -541,12 +551,13 @@ npm init -y
 安装：
 
 ```bash
-npm install -g cnpm --registry=https://registry.npm.taobao.org
+npm install -g cnpm --registry=https://registry.npm.taobao.org # 已废弃
+npm install -g cnpm --registry=https://registry.npmmirror.com
 ```
 
 cnpm是npm的国内镜像。
 
-
+网址：https://npmmirror.com/
 
 ## 4、NRM命令
 
@@ -556,6 +567,7 @@ cnpm是npm的国内镜像。
 
 ```bash
 npm install nrm -g
+npm i -g nrm open@8.4.2 # 推荐，避免缺少open的错误
 ```
 
 ### 2、查看镜像源
@@ -572,6 +584,65 @@ $ nrm ls
   edunpm ----- http://registry.enpmjs.org/
   ss --------- https://repo.ishanshan.com/repository/ss-public/
 ```
+
+> 如果展示的结果，看不到 * ，可以如下修复：
+>
+> 1. 打开nrm安装目录，找到cli.js并打开
+> 2. 找到如下代码
+>
+> ```js
+> function onUse (name) {
+>     var allRegistries = getAllRegistry();
+>     if (hasOwnProperty(allRegistries, name)) {
+>         getCurrentRegistry(function (cur) {
+>             let currentRegistry, item;
+>             for (let key of Object.keys(allRegistries)) {
+>                 item = allRegistries[key];
+>                 if (item[FIELD_IS_CURRENT] && equalsIgnoreCase(item.registry, cur)) {
+>                     currentRegistry = item;
+>                     break;
+>                 }
+>             }
+>             var registry = allRegistries[name];
+>             let attrs = [].concat(REGISTRY_ATTRS).concat();
+>             for (let attr in Object.assign({}, currentRegistry, registry)) {
+>                 if (!REGISTRY_ATTRS.includes(attr) && !IGNORED_ATTRS.includes(attr)) {
+>                     attrs.push(attr);
+>                 }
+>             }
+> 
+>             config(attrs, registry).then(() => {
+>                 console.log('                        ');
+>                 const newR = npm.config.get(FIELD_REGISTRY);
+>                 var customRegistries = getCustomRegistry();
+>                 Object.keys(customRegistries).forEach(key => {
+>                     delete customRegistries[key][FIELD_IS_CURRENT];
+>                 });
+>                 if (hasOwnProperty(customRegistries, name) && (name in registries || customRegistries[name].registry === registry.registry)) {
+>                     registry[FIELD_IS_CURRENT] = true;
+>                     customRegistries[name] = registry;
+>                 }
+>                 setCustomRegistry(customRegistries);
+>                 printMsg(['', '   Registry has been set to: ' + newR, '']);
+>             }).catch(err => {
+>                 exit(err);
+>             });
+>         });
+>     } else {
+>         printMsg(['', '   Not find registry: ' + name, '']);
+>     }
+> }
+> ```
+>
+> 4. 修改如下：
+>
+> ```js
+> if (hasOwnProperty(customRegistries, name) && (name in registries || customRegistries[name].registry === registry.registry))
+> ==>
+> if (hasOwnProperty(customRegistries, name) || (name in registries || customRegistries[name].registry === registry.registry))
+> ```
+>
+> 5. 重新`nrm use taobao` ，然后`nrm ls`查看结果，会发现已经带有*了。
 
 ### 3、切换镜像源
 
@@ -604,6 +675,8 @@ nrm test npm
 # 三、YARN
 
 [Yarn中文官网](https://yarn.bootcss.com/)
+
+[Yarn英文官网](https://yarnpkg.com/)
 
 ## 1、YARN是什么
 
@@ -911,7 +984,7 @@ npm install -g npx
 
 ### 5.1、调用项目安装的模块
 
-npx想要解决的主要文档，就是调用项目内部安装的模块。比如，项目内部安装了测试工具Mocha。
+npx想要解决的主要问题，就是调用项目内部安装的模块。比如，项目内部安装了测试工具Mocha。
 
 ```bash
 npm install -D mocha
@@ -1200,6 +1273,10 @@ npm i koa-generic-session
 ```bash
 npm i koa-redis
 ```
+
+# 九、常见问题
+
+## 1、npm在git bash安装包时无进度条
 
 
 
