@@ -75,6 +75,7 @@ npm config set registry https://registry.npm.taobao.org
 
 | 命令                  | 说明                          |
 | --------------------- | ----------------------------- |
+| nvm -v                | 查看版本                      |
 | nvm list available    | 显示所有可以下载的Node.js版本 |
 | nvm list              | 显示已安装的版本              |
 | nvm install 18.12.1   | 安装18.12.1版本的Node.js      |
@@ -427,9 +428,21 @@ npm ls -g
 npm ls -g --depth=0
 ```
 
+## 3.6、npm list
 
+- 查看项目依赖包
 
-### 3.6、npm help
+```shell
+npm list
+```
+
+- 指定查看层级
+
+```shell
+npm list --depth 2
+```
+
+### 3.7、npm help
 
 查看某条命令的帮助详情
 
@@ -439,7 +452,7 @@ npm help <term> [<terms..>]
 
 
 
-### 3.7、npm config 
+### 3.8、npm config 
 
 管理npm的配置路径
 
@@ -494,7 +507,7 @@ npm config ls -l
 
 
 
-### 3.8、npm cache 
+### 3.9、npm cache 
 
 管理模块的缓存
 
@@ -516,7 +529,7 @@ npm cache verify
 npm cache clean
 ```
 
-### 3.9、npm root
+### 3.10、npm root
 
 显示npm根目录
 
@@ -526,7 +539,7 @@ npm root [-g]
 
 在标准输出上将有效的`node_modules`文件夹打印出来。
 
-### 3.10、npm init
+### 3.11、npm init
 
 在项目中引导创建一个package.json文件
 
@@ -546,7 +559,7 @@ npm init -y
 
 
 
-### 3.11、cnpm
+### 3.12、cnpm
 
 安装：
 
@@ -570,6 +583,16 @@ npm install nrm -g
 npm i -g nrm open@8.4.2 # 推荐，避免缺少open的错误
 ```
 
+> 如果碰到错误`const open = require('open');
+>
+> ​                                                  ^
+>
+> 如上错误，表示nrm的依赖包open未能加载，打开nrm的安装包下`package.json`查看，需要：
+>
+> "open": ">=6.0.0"，所以请安装open
+>
+> `npm i -g open@8.4.2`
+
 ### 2、查看镜像源
 
 ```bash
@@ -578,7 +601,7 @@ $ nrm ls
   npm -------- https://registry.npmjs.org/
   yarn ------- https://registry.yarnpkg.com/
   cnpm ------- http://r.cnpmjs.org/
-* taobao ----- https://registry.npm.taobao.org/
+* taobao ----- https://registry.npm.taobao.org/  ==> 最新版是：https://registry.npmmirror.com
   nj --------- https://registry.nodejitsu.com/
   npmMirror -- https://skimdb.npmjs.com/registry/
   edunpm ----- http://registry.enpmjs.org/
@@ -929,7 +952,18 @@ nrm 是一个 `npm` 源管理器，允许你快速地在 `npm` 源间切换。
 
 ```bash
 npm install -g nrm
+npm i -g nrm open@8.4.2 # 推荐，避免缺少open的错误
 ```
+
+> 如果碰到错误`const open = require('open');
+>
+> ​                                                  ^
+>
+> 如上错误，表示nrm的依赖包open未能加载，打开nrm的安装包下`package.json`查看，需要：
+>
+> "open": ">=6.0.0"，所以请安装open
+>
+> `npm i -g open@8.4.2`
 
 - 使用
 
@@ -974,9 +1008,17 @@ nrm test <registry>
 
 ## 5、npx
 
-npm从5.2版本开始，增加了npx命令。它有很多用处，这里只介绍该命令的主要使用场景。
+npx是执行Node软件包的工具，它从 npm5.2版本开始，就与npm捆绑在一起。
 
-Node自带npm模块，所以可以直接使用npx命令。万一不能用，就要手动安装一下。
+npx的作用如下：
+
+1. 默认情况下，首先检查路径中是否存在要执行的包（即在项目中）；
+
+2. 如果存在，它将执行；
+
+3. 若不存在，意味着尚未安装该软件包，npx将安装其最新版本，然后执行它；
+
+Node8.2以后自带npm模块，所以可以直接使用npx命令。万一不能用，就要手动安装一下。
 
 ```bash
 npm install -g npx
