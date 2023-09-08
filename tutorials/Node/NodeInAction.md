@@ -428,7 +428,7 @@ npm ls -g
 npm ls -g --depth=0
 ```
 
-## 3.6、npm list
+### 3.6、npm list
 
 - 查看项目依赖包
 
@@ -571,6 +571,14 @@ npm install -g cnpm --registry=https://registry.npmmirror.com
 cnpm是npm的国内镜像。
 
 网址：https://npmmirror.com/
+
+### 3.13、查看某个包的所有版本
+
+```shell
+$ npm view webpack versions
+```
+
+
 
 ## 4、NRM命令
 
