@@ -22,8 +22,23 @@
 
 下载地址： <https://github.com/coreybutler/nvm-windows/releases>
 
-1. 下载 nvm-setup.zip
+1. 下载 nvm-setup.zip，解压后可以得到 nvm-setup.exe 安装宝，双击安装即可。
 2. 安装nvm
+
+备注：若nvm安装node卡主，可以尝试更换网络：
+
+【找到nvm安装目录（比如：C:\Users\limin\AppData\Roaming\nvm】下的settings文件，编辑并增加：
+
+```tex
+# 现有
+root: C:\Users\limin\AppData\Roaming\nvm
+path: C:\Program Files\nodejs
+# 增加
+node_mirror: https://npm.taobao.org/mirrors/node/
+npm_mirror: https://npm.taobao.org/mirrors/npm/
+```
+
+
 
 ### 1.2、安装Node/npm
 
@@ -75,6 +90,7 @@ npm config set registry https://registry.npm.taobao.org
 
 | 命令                  | 说明                          |
 | --------------------- | ----------------------------- |
+| nvm current           | 显示激活的版本                |
 | nvm -v                | 查看版本                      |
 | nvm list available    | 显示所有可以下载的Node.js版本 |
 | nvm list              | 显示已安装的版本              |
