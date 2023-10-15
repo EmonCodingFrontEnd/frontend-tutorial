@@ -14,126 +14,54 @@ https://blog.csdn.net/coding_lin/article/details/81093890
 
 https://www.jianshu.com/p/ad8c3b480ef3
 
-### 1.1、注册参考
-
-获取注册码的原始引导地址：https://www.jianshu.com/p/133af2e4fe3f
-
-- 注册码：
-
-```
-http://idea.lanyus.com/
-```
-
-### 1.3、调试
-
 ## 2、安装谷歌访问助手
 
-https://github.com/haotian-wang/google-access-helper
-
 https://github.com/zcjunblog/google-access-helper2021
-
-## 3、安装vue-devtools
-
-https://segmentfault.com/a/1190000015363628
 
 
 
 # 二、vue-cli
 
-## 1、vue-cli2
+## 1、安装Vue Cli 5.x
 
-### 1.1、安装
+- 前提：
 
-```bash
-npm install -g vue-cli
+Node.js ^12.0.0 || >= 14.0.0
+
+- 安装：
+
+```shell
+$ npm i -g @vue/cli
 ```
 
-- 查看
+- 升级
 
-```bash
-vue -V
+如需升级全局的Vue Cli包，请原型。
+
+```shell
+$ npm update -g @vue/cli
 ```
 
+- 创建项目
 
-
-### 1.2、创建vue-cli2项目
-
-```bash
-vue init webpack <projectName>
+```shell
+$ vue create vue_test
 ```
 
-安装过程需要注意的点：
+- 启动项目
 
-- Install vue-router?(Y/n)是否安装vue-router，这是官方的路由，大多数情况下都使用，这里就输入“y”后回车即可。
-- Use ESLint to lint your code?(Y/n)是否使用ESLint管理代码，ESLint是个代码风格管理工具，是用来统一代码风格的，一般项目中都会使用。
-
-安装完成后，根据提示启动项目：
-
-```bash
-cd <projectName>
-npm run dev
+```shell
+$ cd vue_test
+$ npm run serve
 ```
 
-
-
-### 1.3、小贴士
+## 2、小贴士
 
 - 地址栏中，经常出现#，是什么作用，能不能去掉#？
 - hash模式：地址栏包含#符号，#以后的不被后台获取
 - history模式：具有对url历史记录进行修改的功能
 - 在微信支付、分享url作为参数传递时，#不能满足需求
 - history需要后台配置，处理404的问题。
-
-
-
-## 2、vue-cli3
-
-### 1.1、卸载vue-cli2
-
-```bash
-npm uni vue-cli -g
-```
-
-### 1.2、安装
-
-```bash
-npm install -g @vue/cli
-```
-
-- 查看
-
-```bash
-vue -V
-```
-
-- 启动图形界面
-
-```bash
-vue ui
-```
-
-### 1.3、创建vue-cli3项目
-
-```bash
-vue create <projectName>
-```
-
-安装完成后，根据提示启动项目：
-
-```bash
-cd <projectName>
-npm run serve
-或
-yarn serve
-```
-
-### 1.4、安装@vue/cli-init
-
-```bash
-npm i -g @vue/cli-init
-或
-yarn global add @vue/cli-init
-```
 
 
 
