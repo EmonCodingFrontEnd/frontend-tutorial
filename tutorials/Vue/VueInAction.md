@@ -55,6 +55,14 @@ $ cd vue_test
 $ npm run serve
 ```
 
+- 查看配置
+
+```shell
+$ vue inspect > output.js
+```
+
+
+
 ## 2、小贴士
 
 - 地址栏中，经常出现#，是什么作用，能不能去掉#？

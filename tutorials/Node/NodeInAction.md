@@ -588,7 +588,7 @@ cnpm是npm的国内镜像。
 
 网址：https://npmmirror.com/
 
-### 3.13、查看某个包的所有版本
+### 3.13、npm view 查看某个包的所有版本
 
 ```shell
 $ npm view webpack versions
