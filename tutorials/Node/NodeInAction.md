@@ -99,6 +99,34 @@ npm config set registry https://registry.npm.taobao.org
 | nvm uninstall 18.12.1 | 删除某个版本的Node.js         |
 | nvm use 18.12.1       | 切换到18.12.1版本的Node.js    |
 
+常见问题1：
+
+> $ nvm list available
+>
+> Could not retrieve https://npm.taobao.org/mirrors/node/index.json.
+>
+> Get "https://npm.taobao.org/mirrors/node/index.json": tls: failed to verify certificate: x509: certificate has expired or is not yet valid:
+
+问题1解决：
+
+找到nvm目录，`which nvm`
+
+> $ which nvm
+> /c/Users/limin/AppData/Roaming/nvm/nvm
+
+![image-20240229220439321](images/image-20240229220439321.png)
+
+打开settings.txt并调整如下：
+
+```
+root: C:\Users\limin\AppData\Roaming\nvm
+path: C:\Program Files\nodejs
+#node_mirror: https://npm.taobao.org/mirrors/node/
+node_mirror: https://npmmirror.com/mirrors/node/
+#npm_mirror: https://npm.taobao.org/mirrors/npm/
+npm_mirror: https://npmmirror.com/mirrors/npm/
+```
+
 ## 2、CommonJS规范
 
 ```shell
