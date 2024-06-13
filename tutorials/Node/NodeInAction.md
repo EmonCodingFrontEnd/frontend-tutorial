@@ -308,6 +308,20 @@ npm install gulp@3.9.1
 
 
 
+小贴士：安装`chromedriver@2.27.2`碰到过错误导致安装失败：
+
+> npm ERR! node:events:495
+> npm ERR!       throw er; // Unhandled 'error' event
+> npm ERR!       ^
+
+解决：
+
+> npm install chromedriver@2.27.2 --ignore-scripts
+
+可以作为以后解决问题的参考！！！
+
+
+
 - `S,--save`安装包信息将加入到dependencies(生产阶段的依赖）【默认方式】
 
 ```shell
@@ -645,6 +659,14 @@ npm i -g pnpm
 
 ```bash
 npm r -g pnpm
+```
+
+## 3.15、npm audit
+
+**是npm 6 新增的一个命令,可以允许开发人员分析复杂的代码并查明特定的漏洞。** 该命令会在项目中更新或者下载新的依赖包之后自动运行，如果你在项目中使用了具有已知安全问题的依赖，就收到官方的警告通知。
+
+```bash
+$ npm audit 
 ```
 
 
