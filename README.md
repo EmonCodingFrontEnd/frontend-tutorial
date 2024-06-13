@@ -33,4 +33,4 @@
 - [HTTP](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/HTTP)
 - [WebStorm](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/WebStorm)
 - [VSCode](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/VSCode)
-
+- [VitePress](https://github.com/EmonCodingFrontEnd/frontend-tutorial/tree/master/tutorials/VitePress)
