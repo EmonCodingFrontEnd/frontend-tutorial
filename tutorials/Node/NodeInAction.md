@@ -710,6 +710,7 @@ $ nrm ls
 > 如果展示的结果，看不到 * ，可以如下修复：
 >
 > 1. 打开nrm安装目录，找到cli.js并打开
+>
 > 2. 找到如下代码
 >
 > ```js
@@ -756,7 +757,7 @@ $ nrm ls
 > }
 > ```
 >
-> 4. 修改如下：
+> 3. 修改如下：
 >
 > ```js
 > if (hasOwnProperty(customRegistries, name) && (name in registries || customRegistries[name].registry === registry.registry))
