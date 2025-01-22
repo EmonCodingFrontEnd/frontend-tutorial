@@ -1,4 +1,4 @@
-# Node实战
+Node实战
 
 [返回列表](https://github.com/EmonCodingFrontEnd/frontend-tutorial)
 
@@ -98,6 +98,8 @@ npm config set registry https://registry.npm.taobao.org
 | nvm install latest    | 安装最新版本的Node.js         |
 | nvm uninstall 18.12.1 | 删除某个版本的Node.js         |
 | nvm use 18.12.1       | 切换到18.12.1版本的Node.js    |
+| nvm cache dir         | 显示缓存目录                  |
+| nvm cache clear       | 清空缓存目录                  |
 
 常见问题1：
 
